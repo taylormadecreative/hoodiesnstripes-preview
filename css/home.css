@@ -191,7 +191,7 @@ html:not(.js) .vu__btns { display: none; }
 .ticker__item img { width: 34px; height: 34px; padding: 4px; object-fit: contain; border-radius: 50%; background: var(--white); }
 .ticker__item b { font-family: var(--brand); font-weight: 400; font-size: 1.05rem; text-transform: uppercase; transition: color .2s; }
 .ticker__item a:hover b, .ticker__item a:focus-visible b { color: var(--gel); }
-.ticker__tag { padding: .22rem .5rem; border: 1px solid rgba(239, 232, 220, .3); font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--on-dark-2); }
+.ticker__tag { padding: .22rem .5rem; border: 1px solid rgba(239, 232, 220, .3); font-size: .74rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--on-dark-2); }
 .ticker__tag--new { border-color: var(--hs-red); background: var(--hs-red); color: var(--white); }
 .ticker__sep { display: grid; place-items: center; padding: 0 .35rem; }
 .ticker__star { width: 14px; height: 14px; fill: var(--hs-red); }
