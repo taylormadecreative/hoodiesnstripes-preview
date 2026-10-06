@@ -20,26 +20,26 @@
  "vanderbiltSlides": [
   {
    "colorway": "camo",
-   "main": "vu-dsc06519",
-   "detail": "vu-dsc06498",
+   "main": "vu-6201",
+   "wide": "vu-6201-wide",
    "fit": "Regular fit"
   },
   {
    "colorway": "cream",
    "main": "vu-6272",
-   "detail": "vu-6275",
+   "wide": "vu-6272-wide",
    "fit": "Regular fit"
   },
   {
    "colorway": "black",
    "main": "vu-6374",
-   "detail": "vu-6352",
+   "wide": "vu-6374-wide",
    "fit": "Regular + cropped"
   },
   {
    "colorway": "white",
    "main": "vu-6407",
-   "detail": "vu-6417",
+   "wide": "vu-6407-wide",
    "fit": "Regular + cropped"
   }
  ]

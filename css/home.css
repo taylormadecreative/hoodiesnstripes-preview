@@ -2,64 +2,93 @@
    Hoodies+Stripes homepage sections. Shared pieces live in store.css.
    ========================================================================== */
 
-/* ---------- Vanderbilt hero: a full-height photo each side, the type between them ----------
-   Portrait photos stay whole (scaled to the hero's height), so no type ever lands on the chenille V. */
-.vu { position: relative; isolation: isolate; height: clamp(600px, calc(100svh - 100px), 980px); overflow: hidden; background-color: var(--night); background-image: var(--grain-dark), radial-gradient(60% 55% at 50% 45%, rgba(180, 46, 16, .16), transparent 70%); color: var(--on-dark); }
+/* ---------- Vanderbilt hero: one big studio image per colorway ----------
+   Desktop: the studio backdrop is extended to widescreen (tools/hero/extend.py) so the model sits right of
+   centre and the type has clean backdrop to the left; it never sits on her. Phones: the original portrait.
+   Slide changes ride a red / cream / red broadcast wipe; a ring badge turns slowly in the open backdrop. */
+.vu { position: relative; isolation: isolate; height: clamp(600px, calc(100svh - 100px), 980px); overflow: hidden; background: #d9d4db; color: var(--ink); }
 .vu__slider, .vu-slides { position: absolute; inset: 0; }
 .vu__slider { touch-action: pan-y; }
-.vu-slide { position: absolute; inset: 0; display: grid; grid-template-columns: 30% 40% 30%; margin: 0; opacity: 0; visibility: hidden; transition: opacity 1.1s var(--ease-out), visibility 0s linear 1.1s; }
-.vu-slide[data-active] { opacity: 1; visibility: visible; transition: opacity 1.1s var(--ease-out), visibility 0s; }
-.vu-slide__frame { position: relative; display: block; min-height: 0; overflow: hidden; }
-.vu-slide__frame--second { grid-column: 3; }
-.vu-slide__frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; }
-html.motion .vu-slide img { transition: transform 7s linear; transform-origin: 50% 30%; }
-html.motion .vu-slide[data-active] img { transform: scale(1.05); } /* slow push-in on the colorway you're looking at */
-/* varsity cuff stripes on the inner edge of each photo */
-.vu-slide__frame::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 22px; background: linear-gradient(90deg, var(--hs-red) 0 6px, var(--night) 6px 9px, var(--cream) 9px 13px, var(--night) 13px 16px, var(--hs-red) 16px 22px); }
-.vu-slide__frame--second::after { right: auto; left: 0; }
-.vu-slide__cap { grid-column: 2; grid-row: 1; align-self: start; justify-self: center; margin-top: clamp(1.4rem, 4vh, 2.6rem); font-size: .74rem; font-weight: 800; letter-spacing: .26em; text-transform: uppercase; color: var(--on-dark-2); }
-.vu-slide__cap::before { content: attr(data-n) " / "; color: var(--gel); }
+.vu-slide { position: absolute; inset: 0; margin: 0; opacity: 0; visibility: hidden; }
+.vu-slide[data-active] { opacity: 1; visibility: visible; }
+/* the incoming colorway is uncovered along a diagonal that rides just behind the varsity bars */
+.vu-slide.is-leaving { z-index: 1; }
+.vu-slide.is-entering { z-index: 2; animation: vu-reveal .95s cubic-bezier(.65, 0, .35, 1) .1s both; }
+@keyframes vu-reveal { from { clip-path: polygon(0 0, 0 0, -30% 100%, -30% 100%); } to { clip-path: polygon(0 0, 130% 0, 100% 100%, -30% 100%); } }
+.vu-slide picture, .vu-slide img { display: block; width: 100%; height: 100%; }
+.vu-slide img { object-fit: cover; object-position: 66% 0%; }
+html.motion .vu-slide img { transition: transform 8s linear; transform-origin: 66% 28%; }
+html.motion .vu-slide[data-active] img { transform: scale(1.045); } /* slow push-in on the colorway you're looking at */
 .vu__shade { display: none; }
-.vu__copy { position: absolute; z-index: 2; left: 30%; width: 40%; top: 0; bottom: 0; display: grid; align-content: center; justify-items: center; gap: 1.1rem; padding: 0 clamp(1.4rem, 3vw, 3rem) 6.5rem; text-align: center; }
-.vu__title { font-family: var(--brand); font-weight: 400; font-synthesis: none; font-size: calc((100vw - 2 * var(--gutter)) / 10.2); line-height: 1.02; text-transform: uppercase; }
-@media (min-width: 1000px) { .vu__title { font-size: min(4.4rem, calc(40vw / 11.4)); } } /* "VANDERBILT" (9.6em) fits the middle column */
+
+.vu__copy { position: absolute; z-index: 3; left: var(--gutter); top: 44%; width: min(38vw, 620px); display: grid; justify-items: start; gap: 1.05rem; transform: translateY(-50%); }
+.vu__eyebrow { display: flex; align-items: center; gap: .7rem; font-size: .76rem; font-weight: 800; letter-spacing: .3em; text-transform: uppercase; color: #8a2008; } /* deep pennant red: 6.5:1 on the studio backdrop */
+.vu__eyebrow img { width: 58px; height: auto; }
+.vu__title { font-family: var(--brand); font-weight: 400; font-synthesis: none; font-size: clamp(2.4rem, 3.5vw, 4.2rem); line-height: 1; text-transform: uppercase; color: var(--ink); }
 .vu__u { position: relative; display: inline-block; }
-.vu__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: .4rem; }
-.vu__nav { position: absolute; z-index: 2; left: 30%; width: 40%; bottom: calc(clamp(1.4rem, 4vh, 2.4rem) + 3.6rem); display: flex; justify-content: center; padding: 0 1.4rem; }
-.vu__controls { position: absolute; z-index: 2; left: 30%; width: 40%; bottom: clamp(1.4rem, 4vh, 2.4rem); display: flex; align-items: center; justify-content: center; gap: 1rem; }
-.vu-tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
-.vu-tab { position: relative; display: inline-flex; align-items: center; gap: .55rem; min-height: 42px; padding: 0 1rem 0 .55rem; overflow: hidden; border: 1px solid rgba(239, 232, 220, .3); border-radius: 999px; background: transparent; color: var(--on-dark); font-weight: 700; font-size: .86rem; cursor: pointer; transition: background-color .2s, color .2s, border-color .2s; }
-.vu-tab:hover { border-color: var(--on-dark); }
-.vu-tab__dot { width: 18px; height: 18px; border-radius: 50%; background: var(--dot); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .35), 0 0 0 1px rgba(0, 0, 0, .4); }
-.vu-tab[aria-selected="true"] { background: var(--on-dark); border-color: var(--on-dark); color: var(--ink); }
-.vu-tab__bar { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--hs-red); transform: scaleX(0); transform-origin: left; }
-.vu.is-playing .vu-tab[aria-selected="true"] .vu-tab__bar { animation: vu-progress var(--vu-interval, 6s) linear forwards; }
+.vu__lede { max-width: 34ch; color: var(--ink-2); font-size: 1.04rem; line-height: 1.55; }
+.vu__ctas { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: .35rem; }
+
+.vu__nav { position: absolute; z-index: 3; left: var(--gutter); bottom: clamp(1.4rem, 4.5vh, 2.6rem); display: flex; align-items: flex-end; gap: 1.6rem; }
+.vu-tabs { display: flex; gap: .9rem; }
+.vu-thumb { position: relative; display: grid; justify-items: start; gap: .45rem; padding: 0; border: 0; background: none; color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.vu-thumb img { width: 68px; height: 84px; object-fit: cover; object-position: 50% 12%; border-radius: 3px; filter: grayscale(1) contrast(.92); box-shadow: 0 0 0 1px rgba(14, 13, 12, .16); transition: filter .3s, transform .3s var(--ease-out), box-shadow .25s; }
+.vu-thumb__label { font-size: .74rem; font-weight: 700; white-space: nowrap; }
+@media (hover: hover) { .vu-thumb:hover img { filter: none; transform: translateY(-3px); } }
+.vu-thumb[aria-selected="true"] img { filter: none; box-shadow: 0 0 0 2px var(--ink); } /* active colorway in color, the rest in grey */
+.vu-tab__bar { position: absolute; left: 0; width: 68px; top: 88px; height: 2px; background: var(--hs-red); transform: scaleX(0); transform-origin: left; }
+.vu.is-playing .vu-thumb[aria-selected="true"] .vu-tab__bar { animation: vu-progress var(--vu-interval, 6s) linear forwards; }
 @keyframes vu-progress { to { transform: scaleX(1); } }
-.vu__count { font-size: .9rem; font-weight: 700; letter-spacing: .16em; font-variant-numeric: tabular-nums; color: var(--on-dark-2); }
-.vu__btns { display: flex; gap: .45rem; }
-.vu__btn { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid rgba(239, 232, 220, .35); border-radius: 50%; background: transparent; color: var(--on-dark); cursor: pointer; transition: background-color .2s, color .2s; }
-.vu__btn:hover { background: var(--on-dark); color: var(--ink); }
-.vu__btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.vu__controls { display: flex; align-items: center; gap: .9rem; padding-bottom: 1.5rem; }
+.vu__count { font-size: .88rem; font-weight: 700; letter-spacing: .16em; font-variant-numeric: tabular-nums; color: var(--ink); }
+.vu__btns { display: flex; gap: .4rem; }
+.vu__btn { display: grid; place-items: center; width: 42px; height: 42px; padding: 0; border: 1px solid rgba(14, 13, 12, .4); border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer; transition: background-color .2s, color .2s; }
+.vu__btn:hover { background: var(--ink); color: var(--on-dark); }
+.vu__btn svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .vu__btn .vu__play { display: none; fill: currentColor; stroke: none; }
 .vu__btn[aria-pressed="true"] .vu__play { display: block; }
 .vu__btn[aria-pressed="true"] .vu__pause { display: none; }
 html:not(.js) .vu__btns { display: none; }
+
+/* ring badge: turns slowly in the open backdrop to the right of the model */
+.vu__badge { position: absolute; z-index: 2; right: clamp(1.5rem, 3.4vw, 4rem); top: 16%; display: grid; place-items: center; width: 136px; height: 136px; }
+.vu__badge svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.vu__badge text { font-family: var(--font); font-size: 9.6px; font-weight: 800; letter-spacing: .26em; text-transform: uppercase; fill: var(--ink); }
+.vu__badge img { position: relative; width: 62px; height: auto; }
+@media (prefers-reduced-motion: no-preference) { .vu__badge svg { animation: badge-spin 24s linear infinite; } }
+@keyframes badge-spin { to { transform: rotate(360deg); } }
+@media (max-width: 1199px) { .vu__badge { display: none; } }
+
+/* broadcast wipe: three varsity bars sweep across on every colorway change */
+.vu__wipe { position: absolute; inset: 0; z-index: 4; overflow: hidden; pointer-events: none; }
+.vu__wipe i { position: absolute; top: -12%; bottom: -12%; left: 0; width: 26vw; background: var(--hs-red); transform: translateX(-60vw) skewX(-14deg); }
+.vu__wipe i:nth-child(2) { width: 5vw; background: var(--cream); }
+.vu__wipe i:nth-child(3) { width: 16vw; background: #882008; }
+.vu.is-wiping .vu__wipe i { animation: vu-wipe .95s cubic-bezier(.65, 0, .35, 1) both; }
+.vu.is-wiping .vu__wipe i:nth-child(2) { animation-delay: .07s; }
+.vu.is-wiping .vu__wipe i:nth-child(3) { animation-delay: .14s; }
+@keyframes vu-wipe { from { transform: translateX(-60vw) skewX(-14deg); } to { transform: translateX(140vw) skewX(-14deg); } }
+
 @media (max-width: 999px) {
-  /* phone/tablet: one full-height photo; type in the open space below the chest lettering */
-  .vu { height: clamp(560px, calc(100svh - 92px), 880px); }
-  .vu-slide { grid-template-columns: 1fr; }
-  .vu-slide__frame--second, .vu-slide__cap, .vu-slide__frame::after { display: none; }
-  .vu__shade { display: block; position: absolute; z-index: 1; inset: auto 0 0 0; height: 46%; pointer-events: none; background: linear-gradient(0deg, rgba(10, 9, 9, .94) 0%, rgba(10, 9, 9, .7) 45%, rgba(10, 9, 9, 0) 100%); }
-  .vu__copy { top: auto; left: var(--gutter); right: var(--gutter); width: auto; bottom: 4.6rem; align-content: end; justify-items: start; gap: .7rem; padding: 0; text-align: left; }
-  .vu__title { font-size: calc((100vw - 2 * var(--gutter)) / 12.5); }
-  .vu__copy > .eyebrow { display: none; } /* the headline already says it; keeps the type clear of the V */
-  .vu__ctas { justify-content: flex-start; margin-top: .2rem; }
-  .vu__nav { left: var(--gutter); right: calc(var(--gutter) + 9.6rem); width: auto; bottom: 1rem; justify-content: flex-start; padding: 0; }
-  .vu-tabs { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
-  .vu-tabs::-webkit-scrollbar { display: none; }
-  .vu-tab { flex: none; }
-  .vu__controls { left: auto; right: var(--gutter); width: auto; bottom: 1rem; }
+  /* phones: the original portrait, dark and full height; type sits below the chest lettering */
+  .vu { height: clamp(560px, calc(100svh - 92px), 880px); background: var(--night); color: var(--on-dark); }
+  .vu-slide img { object-position: 50% 0%; }
+  .vu__shade { display: block; position: absolute; z-index: 2; inset: auto 0 0 0; height: 50%; pointer-events: none; background: linear-gradient(0deg, rgba(10, 9, 9, .94) 0%, rgba(10, 9, 9, .66) 46%, rgba(10, 9, 9, 0) 100%); }
+  .vu__copy { top: auto; right: var(--gutter); bottom: 5.3rem; width: auto; gap: .7rem; transform: none; }
+  .vu__eyebrow, .vu__lede { display: none; }
+  .vu__title { font-size: calc((100vw - 2 * var(--gutter)) / 12.5); color: var(--on-dark); }
+  .vu__ctas { margin-top: .1rem; }
+  .vu__ctas .btn--dark { background: var(--on-dark); color: var(--ink); }
+  .vu__ctas .btn--outline-dark { border-color: rgba(239, 232, 220, .75); color: var(--on-dark); }
+  .vu__nav { right: var(--gutter); bottom: .9rem; justify-content: space-between; align-items: center; gap: .8rem; }
+  .vu-tabs { gap: .5rem; }
+  .vu-thumb img { width: 40px; height: 50px; box-shadow: 0 0 0 1px rgba(239, 232, 220, .35); }
+  .vu-thumb[aria-selected="true"] img { box-shadow: 0 0 0 2px var(--on-dark); }
+  .vu-thumb__label { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .vu-tab__bar { width: 40px; top: auto; bottom: -5px; }
+  .vu__controls { padding: 0; }
   .vu__count { display: none; }
+  .vu__btn { width: 40px; height: 40px; border-color: rgba(239, 232, 220, .45); color: var(--on-dark); }
 }
 
 /* ---------- yearbook notes: ballpoint on cream, gel pen on dark ---------- */

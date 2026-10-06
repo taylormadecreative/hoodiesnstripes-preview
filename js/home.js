@@ -195,18 +195,6 @@ let vuPlaying = !reducedMotion;
 let vuHold = false; // hover, focus or a hidden tab holds autoplay without turning it off
 let vuTimer = null;
 
-function vuRender() {
-  vuSlides.forEach((sl, k) => { sl.toggleAttribute('data-active', k === vuIndex); sl.setAttribute('aria-hidden', String(k !== vuIndex)); });
-  vuTabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === vuIndex)); t.tabIndex = k === vuIndex ? 0 : -1; });
-  vuCount.textContent = `${two(vuIndex + 1)} / ${two(vuSlides.length)}`;
-  // On phones the pill row scrolls sideways: keep the active pill in view (never moves the page)
-  const row = vuTabs[vuIndex].parentElement;
-  if (row.scrollWidth > row.clientWidth) {
-    const t = vuTabs[vuIndex].getBoundingClientRect();
-    const r = row.getBoundingClientRect();
-    row.scrollTo({ left: row.scrollLeft + (t.left - r.left) - (row.clientWidth - t.width) / 2, behavior: reducedMotion ? 'auto' : 'smooth' });
-  }
-}
 function vuSchedule() {
   clearTimeout(vuTimer);
   vu.classList.remove('is-playing');
@@ -215,10 +203,35 @@ function vuSchedule() {
   vu.classList.add('is-playing');
   vuTimer = setTimeout(() => vuShow(vuIndex + 1), VU_INTERVAL);
 }
+let vuSwap = null;
 function vuShow(i) {
   vuIndex = (i + vuSlides.length) % vuSlides.length;
   vuRender();
   vuSchedule();
+}
+// The tabs move at once; the new photo is uncovered behind the varsity bars, then the old one is dropped.
+function vuRender() {
+  vuTabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === vuIndex)); t.tabIndex = k === vuIndex ? 0 : -1; });
+  vuCount.textContent = `${two(vuIndex + 1)} / ${two(vuSlides.length)}`;
+  const next = vuSlides[vuIndex];
+  const prev = vuSlides.find((sl) => sl !== next && sl.hasAttribute('data-active'));
+  const settle = () => vuSlides.forEach((sl) => {
+    sl.toggleAttribute('data-active', sl === next);
+    sl.setAttribute('aria-hidden', String(sl !== next));
+    sl.classList.remove('is-entering', 'is-leaving');
+  });
+  clearTimeout(vuSwap);
+  if (!prev || reducedMotion || !doc.documentElement.classList.contains('motion')) { settle(); return; }
+  vuSlides.forEach((sl) => sl.classList.remove('is-entering', 'is-leaving'));
+  prev.classList.add('is-leaving');
+  next.setAttribute('data-active', '');
+  next.setAttribute('aria-hidden', 'false');
+  void next.offsetWidth; // restart the reveal and the bars together
+  next.classList.add('is-entering');
+  vu.classList.remove('is-wiping');
+  void vu.offsetWidth;
+  vu.classList.add('is-wiping');
+  vuSwap = setTimeout(settle, 1100);
 }
 function vuStop() {
   vuPlaying = false;
