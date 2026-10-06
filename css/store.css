@@ -175,3 +175,90 @@ html.motion .card.is-new { animation: card-in .7s var(--ease-out) both; }
 @media (hover: hover) { .card:hover { transform: translateY(-4px); } }
 @media (prefers-reduced-motion: no-preference) { .wave { transform-origin: 8% 50%; animation: pennant-wave 3.6s ease-in-out infinite; } }
 @keyframes pennant-wave { 0%, 100% { transform: rotate(-3deg) skewY(-1deg); } 50% { transform: rotate(3deg) skewY(1.5deg); } }
+
+/* ---------- signup popup: a game-day pass ----------
+   Cream ticket with real cut-out notches at the perforation, a red stub in the pennant's sweep,
+   school logos to tap, and a stamp when you're in. */
+.modal--ticket { width: min(94vw, 980px); max-height: calc(100dvh - 1.5rem); padding: 0; overflow: visible; background: transparent; box-shadow: none; filter: drop-shadow(0 34px 60px rgba(0, 0, 0, .6)); }
+.modal--ticket[open] { display: block; }
+.modal--ticket::backdrop { background: rgba(9, 8, 8, .74); }
+.ticket {
+  --stub: 210px; --notch: 15px;
+  --cut-mask: radial-gradient(circle at calc(100% - var(--stub)) 0, #0000 var(--notch), #000 calc(var(--notch) + .5px)) top / 100% 51% no-repeat, radial-gradient(circle at calc(100% - var(--stub)) 100%, #0000 var(--notch), #000 calc(var(--notch) + .5px)) bottom / 100% 51% no-repeat;
+  position: relative; display: grid; grid-template-columns: 230px minmax(0, 1fr) var(--stub); min-height: 480px; overflow: hidden; border-radius: 16px; color: var(--ink);
+  -webkit-mask: var(--cut-mask); mask: var(--cut-mask);
+}
+@media (prefers-reduced-motion: no-preference) { .modal--ticket[open] .ticket { animation: ticket-in .8s var(--ease-out) both; } }
+@keyframes ticket-in { from { transform: translateY(28px) rotate(-2.5deg); } }
+.ticket__photo { position: relative; margin: 0; }
+.ticket__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
+.ticket__main { position: relative; display: grid; align-content: center; gap: .8rem; padding: 2rem 2.2rem 1.5rem; background-color: var(--cream); background-image: var(--grain); }
+.ticket__main::after { content: ""; position: absolute; top: calc(var(--notch) + 8px); bottom: calc(var(--notch) + 8px); right: 0; border-right: 2px dashed rgba(14, 13, 12, .3); }
+.ticket__top { display: flex; align-items: center; gap: .7rem; }
+.ticket__mark { width: 66px; height: auto; }
+.ticket__eyebrow { font-size: .74rem; font-weight: 800; letter-spacing: .3em; text-transform: uppercase; color: var(--hs-red); }
+.ticket__title { font-family: var(--brand); font-weight: 400; font-synthesis: none; font-size: clamp(2.4rem, 1.6rem + 2.4vw, 3.5rem); line-height: .98; text-transform: uppercase; }
+.ticket__lede { max-width: 40ch; color: var(--ink-2); line-height: 1.5; }
+.ticket__form { display: grid; gap: .5rem; margin-top: .15rem; }
+.ticket__schools { position: relative; min-width: 0; margin: 0; padding: 0; border: 0; }
+.ticket__label { display: block; margin-bottom: .4rem; font-size: .72rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; color: var(--ink); }
+.ticket__label span { font-weight: 600; letter-spacing: .06em; text-transform: none; color: var(--ink-2); }
+.ticket__note { position: absolute; z-index: 2; top: -1.35rem; right: .2rem; display: flex; align-items: flex-end; gap: .1rem; font-size: 1.35rem; transform: rotate(-4deg); }
+.ticket__note .note__arrow { width: 38px; height: 28px; }
+.ticket__picks { display: flex; gap: .55rem; overflow-x: auto; padding: .45rem .3rem .7rem; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.pick { position: relative; flex: none; cursor: pointer; scroll-snap-align: start; }
+.pick input { position: absolute; inset: 0; z-index: 1; margin: 0; opacity: 0; cursor: pointer; }
+.pick__patch { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--white); box-shadow: 0 0 0 2px var(--tile), 0 0 0 4px var(--cream), 0 0 0 5px rgba(14, 13, 12, .14); transition: transform .2s var(--ease-out), box-shadow .2s; }
+.pick__patch img { width: 70%; height: 70%; object-fit: contain; }
+.pick__patch b { font-family: var(--brand); font-weight: 400; font-size: .6rem; }
+@media (hover: hover) { .pick:hover .pick__patch { transform: translateY(-2px); } }
+.pick input:checked + .pick__patch { transform: scale(1.1); box-shadow: 0 0 0 3px var(--tile), 0 0 0 5px var(--cream), 0 0 0 8px var(--hs-red); }
+.pick input:focus-visible + .pick__patch { outline: 3px solid var(--hs-red); outline-offset: 6px; }
+.ticket__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; }
+.ticket__row input { min-width: 0; min-height: 52px; padding: 0 1rem; border: 1.5px solid var(--ink); border-radius: 2px; background: var(--white); color: var(--ink); font-size: 16px; }
+.ticket__row button { min-height: 52px; padding: 0 1.3rem; border: 0; border-radius: 2px; background: var(--hs-red); color: var(--white); font-weight: 800; font-size: .95rem; white-space: nowrap; cursor: pointer; transition: background-color .2s, transform .15s var(--ease-out); }
+.ticket__row button:hover { background: #8a2008; }
+.ticket__row button:active { transform: scale(.98); }
+.ticket__form .capture__status { min-height: 1.3em; font-size: .9rem; font-weight: 700; }
+.ticket__form[data-state="error"] input[type="email"] { border-color: var(--hs-red); }
+.ticket__form[data-state="error"] .capture__status { color: var(--hs-red); }
+.ticket__form[data-state="done"] .ticket__schools, .ticket__form[data-state="done"] .ticket__row, .ticket__form[data-state="done"] > .ticket__label { display: none; }
+.ticket__skip { justify-self: start; padding: .2rem 0; border: 0; background: none; color: var(--ink-2); font-size: .86rem; text-decoration: underline; cursor: pointer; }
+.ticket__stub { position: relative; display: grid; grid-template-rows: auto 1fr auto; gap: 1rem; padding: 1.8rem 1.3rem 1.5rem; background: linear-gradient(165deg, #d03010 0%, #b42e10 55%, #882008 100%); color: var(--white); }
+.ticket__admit { font-family: var(--brand); font-size: 1.15rem; letter-spacing: .08em; text-transform: uppercase; }
+.ticket__seat { display: grid; align-content: center; gap: 1.1rem; }
+.ticket__seat-patch { display: grid; place-items: center; width: 92px; height: 92px; border-radius: 50%; background: var(--white); box-shadow: 0 0 0 4px rgba(255, 252, 246, .3); }
+.ticket__seat-patch img { width: 74%; height: 74%; object-fit: contain; }
+.ticket__seat dl { display: grid; gap: .6rem; margin: 0; }
+.ticket__seat dl div { display: grid; gap: .1rem; }
+.ticket__seat dt { font-size: .7rem; font-weight: 800; letter-spacing: .24em; text-transform: uppercase; color: rgba(255, 252, 246, .78); }
+.ticket__seat dd { margin: 0; font-family: var(--brand); font-size: 1.1rem; line-height: 1.1; text-transform: uppercase; overflow-wrap: anywhere; }
+.ticket__barcode { height: 50px; padding: 6px 8px; border-radius: 3px; background: repeating-linear-gradient(90deg, var(--stub-1, var(--ink)) 0 3px, transparent 3px 5px, var(--stub-2, var(--hs-red)) 5px 7px, transparent 7px 9px, var(--stub-1, var(--ink)) 9px 10px, transparent 10px 13px) content-box, var(--white); }
+.ticket__stamp { position: absolute; z-index: 3; top: 22%; left: -140px; padding: .3rem .9rem; border: 4px solid var(--hs-red); border-radius: 6px; background: rgba(255, 252, 246, .92); color: var(--hs-red); font-family: var(--brand); font-size: 1.9rem; letter-spacing: .06em; text-transform: uppercase; opacity: 0; transform: rotate(-14deg) scale(1.7); pointer-events: none; transition: opacity .2s, transform .5s var(--ease-out); }
+.ticket:has(form[data-state="done"]) .ticket__stamp { opacity: 1; transform: rotate(-14deg) scale(1); }
+.ticket__close { position: absolute; z-index: 5; top: -16px; right: -16px; width: 40px; height: 40px; border: 2px solid var(--cream); border-radius: 50%; background: var(--ink); color: var(--white); }
+.ticket__close svg { width: 18px; height: 18px; }
+@media (max-width: 720px) {
+  .modal--ticket { width: calc(100vw - 1.5rem); }
+  .ticket {
+    --stubh: 118px;
+    --cut-mask: radial-gradient(circle at 0 calc(100% - var(--stubh)), #0000 var(--notch), #000 calc(var(--notch) + .5px)) left / 51% 100% no-repeat, radial-gradient(circle at 100% calc(100% - var(--stubh)), #0000 var(--notch), #000 calc(var(--notch) + .5px)) right / 51% 100% no-repeat;
+    grid-template-columns: 1fr; grid-template-rows: auto var(--stubh); min-height: 0; max-height: calc(100dvh - 1.5rem); overflow-y: auto;
+  }
+  .ticket__photo, .ticket__admit, .ticket__barcode { display: none; }
+  .ticket__main { padding: 1.5rem 1.15rem 1.2rem; gap: .65rem; }
+  .ticket__main::after { top: auto; bottom: 0; left: calc(var(--notch) + 8px); right: calc(var(--notch) + 8px); border-right: 0; border-bottom: 2px dashed rgba(14, 13, 12, .3); }
+  .ticket__title { font-size: 2.3rem; }
+  .ticket__row { grid-template-columns: 1fr; }
+  .ticket__stub { grid-template-rows: none; align-content: center; padding: .9rem 1.2rem; }
+  .ticket__seat { grid-auto-flow: column; justify-content: start; align-items: center; gap: 1rem; }
+  .ticket__seat-patch { width: 62px; height: 62px; }
+  .ticket__seat dl { gap: .15rem; }
+  .ticket__seat dl div { display: flex; align-items: baseline; gap: .7rem; }
+  .ticket__seat dt { width: 4.4rem; flex: none; }
+  .ticket__seat dd { font-size: .86rem; white-space: nowrap; overflow-wrap: normal; }
+  .ticket__note { top: -.45rem; font-size: 1.1rem; }
+  .ticket__note .note__arrow { width: 30px; height: 22px; }
+  .ticket__close { top: .3rem; right: .3rem; width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); }
+  .ticket__stamp { top: auto; bottom: 26px; left: auto; right: .9rem; font-size: 1.45rem; }
+}

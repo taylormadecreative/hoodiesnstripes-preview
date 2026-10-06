@@ -134,6 +134,19 @@ function maybePopup(exitIntent = false) {
 addEventListener('scroll', () => maybePopup(false), { passive: true });
 doc.addEventListener('mouseout', (e) => { if (!e.relatedTarget && e.clientY <= 0) maybePopup(true); });
 
+// ---- game-day pass: the school you tap goes on the ticket stub, barcode in its colors ----
+const stub = popup.querySelector('.ticket__stub');
+const stubName = popup.querySelector('[data-stub-school]');
+const stubLogo = popup.querySelector('[data-stub-logo]');
+popup.querySelectorAll('.pick input').forEach((radio) => radio.addEventListener('change', () => {
+  const pick = radio.closest('.pick');
+  const logo = pick.querySelector('img');
+  stubName.textContent = pick.dataset.short;
+  if (logo) { stubLogo.src = logo.getAttribute('src'); stubLogo.width = logo.width; stubLogo.height = logo.height; }
+  const s = schools[radio.value];
+  if (s) { stub.style.setProperty('--stub-1', s.primary); stub.style.setProperty('--stub-2', s.secondary); }
+}));
+
 doc.querySelectorAll('[data-restock]').forEach((a) => {
   a.addEventListener('click', (e) => {
     e.preventDefault();

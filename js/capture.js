@@ -33,7 +33,7 @@ export function wireForm(form, { onDone } = {}) {
     }
     input.removeAttribute('aria-invalid');
     const { source, handle, colorway } = form.dataset;
-    const school = form.querySelector('select[name="school"]')?.value || form.dataset.school || '';
+    const school = form.querySelector('select[name="school"]')?.value || form.querySelector('input[name="school"]:checked')?.value || form.dataset.school || '';
     form.dataset.tags = tagsFor(source, { school, handle, colorway }).join(',');
     form.dataset.state = 'done';
     status.textContent = `${form.dataset.success || 'You’re on the list.'} (Concept preview: no email was saved.)`;
