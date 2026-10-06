@@ -1,0 +1,71 @@
+{
+ "title": "Vanderbilt V Hoodie",
+ "colorways": [
+  {
+   "id": "camo",
+   "label": "Camo",
+   "swatch": "#6b5a3e",
+   "fits": {
+    "regular": [
+     "vu-6201",
+     "vu-dsc06126",
+     "vu-6194",
+     "vu-6192",
+     "vu-dsc06131",
+     "vu-6190"
+    ]
+   }
+  },
+  {
+   "id": "cream",
+   "label": "Cream",
+   "swatch": "#efe8d2",
+   "fits": {
+    "regular": [
+     "vu-6272",
+     "vu-6275",
+     "vu-6298",
+     "vu-6295",
+     "vu-6254"
+    ]
+   }
+  },
+  {
+   "id": "black",
+   "label": "Black / Gold",
+   "swatch": "#141414",
+   "fits": {
+    "regular": [
+     "vu-6374",
+     "vu-6375",
+     "vu-6373"
+    ],
+    "cropped": [
+     "vu-6352",
+     "vu-6346",
+     "vu-6316",
+     "vu-6343",
+     "vu-6320",
+     "vu-6350"
+    ]
+   }
+  },
+  {
+   "id": "white",
+   "label": "White / Gold",
+   "swatch": "#f7f7f5",
+   "fits": {
+    "regular": [
+     "vu-6395",
+     "vu-6407",
+     "vu-6414",
+     "vu-6410",
+     "vu-6417"
+    ],
+    "cropped": [
+     "vu-dsc06424"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "alabama": {
+  "file": "alabama.svg",
+  "w": 250,
+  "h": 240,
+  "source": "https://en.wikipedia.org/wiki/File:Alabama_Athletics_logo.svg"
+ },
+ "colorado": {
+  "file": "colorado.svg",
+  "w": 137,
+  "h": 101,
+  "source": "https://en.wikipedia.org/wiki/File:Colorado_Buffaloes_logo.svg"
+ },
+ "grambling": {
+  "file": "grambling.svg",
+  "w": 250,
+  "h": 159,
+  "source": "https://en.wikipedia.org/wiki/File:Grambling_State_Tigers_logo.svg"
+ },
+ "howard": {
+  "file": "howard.svg",
+  "w": 194,
+  "h": 250,
+  "source": "https://en.wikipedia.org/wiki/File:Howard_Bison_logo.svg"
+ },
+ "norfolk-state": {
+  "file": "norfolk-state.svg",
+  "w": 250,
+  "h": 250,
+  "source": "https://en.wikipedia.org/wiki/File:Norfork_State_Spartans_logo.svg"
+ },
+ "ncat": {
+  "file": "ncat.svg",
+  "w": 206,
+  "h": 250,
+  "source": "https://en.wikipedia.org/wiki/File:North_Carolina_A&T_Aggies_logo.svg"
+ },
+ "tuskegee": {
+  "file": "tuskegee.svg",
+  "w": 219,
+  "h": 250,
+  "source": "https://en.wikipedia.org/wiki/File:Tuskegee_Golden_Tigers_logo.svg"
+ },
+ "vanderbilt": {
+  "file": "vanderbilt.svg",
+  "w": 512,
+  "h": 384,
+  "source": "https://en.wikipedia.org/wiki/File:Vanderbilt_Athletics_logo.svg"
+ },
+ "alabama-am": {
+  "file": "alabama-am.png",
+  "w": 295,
+  "h": 335,
+  "source": "https://en.wikipedia.org/wiki/File:Alabama_a&m_bulldog_logo.png"
+ },
+ "famu": {
+  "file": "famu.svg",
+  "w": 87,
+  "h": 65,
+  "source": "https://en.wikipedia.org/wiki/File:Florida_A&M_Rattlers_logo.svg"
+ },
+ "jackson-state": {
+  "file": "jackson-state.svg",
+  "w": 250,
+  "h": 159,
+  "source": "https://en.wikipedia.org/wiki/File:Jackson_State_athletics_logo.svg"
+ },
+ "mvsu": {
+  "file": "mvsu.svg",
+  "w": 300,
+  "h": 224,
+  "source": "https://en.wikipedia.org/wiki/File:Mississippi_Valley_State_University_athletics_logo.svg"
+ },
+ "morehouse": {
+  "file": "morehouse.svg",
+  "w": 240,
+  "h": 240,
+  "source": "https://en.wikipedia.org/wiki/File:Morehouse_college_seal.svg"
+ },
+ "pvamu": {
+  "file": "pvamu.png",
+  "w": 590,
+  "h": 574,
+  "source": "https://en.wikipedia.org/wiki/File:Prairie_view_univ_athletics_textlogo.png"
+ },
+ "sc-state": {
+  "file": "sc-state.svg",
+  "w": 202,
+  "h": 246,
+  "source": "https://en.wikipedia.org/wiki/File:South_Carolina_State_Bulldogs_logo.svg"
+ },
+ "southern": {
+  "file": "southern.svg",
+  "w": 200,
+  "h": 127,
+  "source": "https://en.wikipedia.org/wiki/File:Southern-u_logo_from_NCAA.svg"
+ },
+ "tsu": {
+  "file": "tsu.svg",
+  "w": 247,
+  "h": 229,
+  "source": "https://en.wikipedia.org/wiki/File:Tennessee_State_Athletics_logo.svg"
+ },
+ "xula": {
+  "file": "xula.svg",
+  "w": 512,
+  "h": 601,
+  "source": "https://en.wikipedia.org/wiki/File:Xavier_University_of_Louisiana_XULA_monogram_yellow-green.svg"
+ }
+}

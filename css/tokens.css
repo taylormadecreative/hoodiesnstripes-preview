@@ -1,0 +1,57 @@
+/* ND Logos by AimCreative = the face of the Hoodies+Stripes logo (identified 10/6).
+   Demo file from dafont, used by Nelson's call (10/6). The demo has A-Z, a-z, 0-9 but
+   almost no punctuation, so . + ' and friends fall back to Archivo. */
+@font-face { font-family: "ND Logos"; src: url("../fonts/nd-logos.woff") format("woff"); font-display: swap; }
+
+:root {
+  --ink: #0e0d0c;
+  --ink-2: #3a3733;
+  --night: #121110;
+  --cream: #efe8dc;
+  --cream-2: #e6ddcd;
+  --card: #f6f1e8;
+  --paper: var(--cream);
+  --paper-2: var(--cream-2);
+  --white: #fffcf6;
+  --line: rgba(14, 13, 12, 0.12);
+  --line-2: #d8cdb9;
+  --hs-red: #b42a14;
+  --hs-red-deep: #8a2008;
+  --vandy-gold: #c9a35d; /* Vanderbilt campaign only, never the site theme */
+  --on-dark: #efe8dc;
+  --on-dark-2: rgba(239, 232, 220, 0.72);
+  --pen: #b8231a;      /* red ink: yearbook notes on cream (4.7:1 on the darker cream) */
+  --gel: #ff5b45;      /* brighter red ink: yearbook notes on dark */
+
+  /* school theme: set per school on the tile / shop results only */
+  --school-primary: var(--ink);
+  --school-secondary: var(--hs-red);
+  --school-on-primary: var(--white);
+  --school-on-secondary: var(--white);
+
+  --font: "Archivo", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --brand: "ND Logos", "Archivo", ui-sans-serif, sans-serif; /* the H+S logo face: big headings only */
+  --script: "Mr Dafoe", "Brush Script MT", cursive;
+  --hand: "Caveat", "Bradley Hand", cursive;
+
+  --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.875rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --step-1: clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem);
+  --step-2: clamp(1.6rem, 1.3rem + 1.4vw, 2.4rem);
+  --step-3: clamp(2.6rem, 1.8rem + 3.6vw, 5.4rem);
+  --step-4: clamp(3.6rem, 2rem + 6vw, 7.8rem);
+
+  --space-2xs: 0.375rem;
+  --space-xs: 0.625rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.5rem;
+  --space-xl: clamp(3.5rem, 2.5rem + 4vw, 6rem);
+
+  --radius: 999px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --gutter: clamp(1rem, 0.5rem + 2.4vw, 3rem);
+  --max: 1360px;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .18 0 0 0 .06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .9 0 0 0 .045 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}

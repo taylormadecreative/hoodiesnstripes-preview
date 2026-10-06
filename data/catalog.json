@@ -1,0 +1,1652 @@
+{
+ "generatedAt": "2026-10-06T16:07:03.309Z",
+ "source": "https://www.hoodiesnstripes.com/products.json",
+ "families": [
+  {
+   "key": "alabama crimson tide cropped letterman hoodie",
+   "title": "Alabama Crimson Tide Cropped Letterman Hoodie",
+   "school": "alabama",
+   "category": "cropped",
+   "price": 109.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Houndstooth",
+     "handle": "alabama-crimson-tide-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/alabama-crimson-tide-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/76030239-65D2-4070-BE18-E55AFF6E57A4.jpg?v=1756484367",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/76030239-65D2-4070-BE18-E55AFF6E57A4.jpg?v=1756484367",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/DE55908D-106D-4C7B-A64B-4BB8D96BA4EE.jpg?v=1760640420"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "alabama crimson tide letterman hoodie",
+   "title": "Alabama Crimson Tide Letterman Hoodie",
+   "school": "alabama",
+   "category": "letterman",
+   "price": 109.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Camouflage",
+     "handle": "alabama-crimson-tide-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/alabama-crimson-tide-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D1C2DE16-2658-4640-887F-30EB097CA8E4.jpg?v=1788242076",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D1C2DE16-2658-4640-887F-30EB097CA8E4.jpg?v=1788242076",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/5542552C-2FA5-465B-9CC5-88ADD4B41AA3.jpg?v=1788242887",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D1C2DE16-2658-4640-887F-30EB097CA8E4.png?v=1788242837"
+     ],
+     "available": true
+    },
+    {
+     "color": "Houndstooth",
+     "handle": "alabama-roll-tide-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/alabama-roll-tide-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/B93360C7-7D8F-4E11-83BB-7199B2826F7E.jpg?v=1756484367",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/B93360C7-7D8F-4E11-83BB-7199B2826F7E.jpg?v=1756484367",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/EB30CA43-B8EF-4F2E-851E-C2A8B51AD7F8.jpg?v=1756484367",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/C587E6D4-DF46-414C-A2EC-D2B4BA0A935D.jpg?v=1756484500",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/DE55908D-106D-4C7B-A64B-4BB8D96BA4EE.jpg?v=1760640420"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "alabama a&m bulldogs letterman hoodie",
+   "title": "Alabama A&M Bulldogs Letterman Hoodie",
+   "school": "alabama-am",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Maroon",
+     "handle": "alabama-a-m-bulldogs-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/alabama-a-m-bulldogs-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7E112C83-D965-4BE0-80BE-143AEDBB45B0.jpg?v=1637867262",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7E112C83-D965-4BE0-80BE-143AEDBB45B0.jpg?v=1637867262"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "alabama-a-m-bulldogs-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/alabama-a-m-bulldogs-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/4B456B0F-67F0-4E6D-AB47-78ED291F082B.jpg?v=1637867016",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/4B456B0F-67F0-4E6D-AB47-78ED291F082B.jpg?v=1637867016"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "colorado buffaloes cropped letterman hoodie",
+   "title": "Colorado Buffaloes Cropped Letterman Hoodie",
+   "school": "colorado",
+   "category": "cropped",
+   "price": 139.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Houndstooth",
+     "handle": "colorado-buffaloes-letterman-hoodie-copy",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie-copy",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender.jpg?v=1693588160",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender.jpg?v=1693588160",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender_62901907-250d-42da-981a-c00028f015b2.jpg?v=1693588567"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "colorado buffaloes letterman hoodie",
+   "title": "Colorado Buffaloes Letterman Hoodie",
+   "school": "colorado",
+   "category": "letterman",
+   "price": 84.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Camouflage",
+     "handle": "colorado-buffaloes-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/9F558242-A44A-415D-BF93-250A5DEB71CE.jpg?v=1724008073",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/9F558242-A44A-415D-BF93-250A5DEB71CE.jpg?v=1724008073"
+     ],
+     "available": true
+    },
+    {
+     "color": "Tie Dye",
+     "handle": "colorado-buffaloes-letterman-hoodie-3",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/C14985E7-7166-4E80-A372-5EB0747E8C69.jpg?v=1724006741",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/C14985E7-7166-4E80-A372-5EB0747E8C69.jpg?v=1724006741"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "colorado-buffaloes-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/94CEC34D-B589-4890-9596-4D7AF30055FF.jpg?v=1693511962",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/94CEC34D-B589-4890-9596-4D7AF30055FF.jpg?v=1693511962"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "colorado-buffaloes-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/1E030774-301A-4BE0-8581-6E9C7C37BDA0.jpg?v=1693510576",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/1E030774-301A-4BE0-8581-6E9C7C37BDA0.jpg?v=1693510576"
+     ],
+     "available": true
+    },
+    {
+     "color": "Houndstooth",
+     "handle": "untitled-aug31_14-21",
+     "url": "https://www.hoodiesnstripes.com/products/untitled-aug31_14-21",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4E1C82C8-14E7-4696-81CD-DFEC0C8887DA.jpg?v=1693509846",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4E1C82C8-14E7-4696-81CD-DFEC0C8887DA.jpg?v=1693509846"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "colorado buffs premium letterman hoodie",
+   "title": "Colorado Buffs Premium Letterman Hoodie",
+   "school": "colorado",
+   "category": "premium",
+   "price": 119.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Off-White/Cream",
+     "handle": "colorado-buffs-premium-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffs-premium-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/BA3418C2-063C-4498-8C50-B5B2ED023C8F.jpg?v=1723927188",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/BA3418C2-063C-4498-8C50-B5B2ED023C8F.jpg?v=1723927188"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "colorado-buffs-premium-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/colorado-buffs-premium-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/23E4144C-1575-42F6-B3FD-41E84F7B4D5D.jpg?v=1694214312",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/23E4144C-1575-42F6-B3FD-41E84F7B4D5D.jpg?v=1694214312",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/DF71D440-11AE-4F74-9C6A-3D5CD989C3D3.jpg?v=1694214311"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "colarado-buffs-premium-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/colarado-buffs-premium-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender.heic?v=1694213435",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender.heic?v=1694213435"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "florida a&m rattlers \"f\" cropped letterman hoodie",
+   "title": "Florida A&M Rattlers “F” Cropped Letterman Hoodie",
+   "school": "famu",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "florida-a-m-rattlers-f-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-f-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1D9E3A53-E33A-4485-AE47-EF33A4857147.jpg?v=1662830993",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1D9E3A53-E33A-4485-AE47-EF33A4857147.jpg?v=1662830993",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F88379B1-A290-4E0A-964A-2B666C12F93C.jpg?v=1662831951"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "florida a&m rattlers \"f\" letterman hoodie",
+   "title": "Florida A&M Rattlers “F” Letterman Hoodie",
+   "school": "famu",
+   "category": "letterman",
+   "price": 74.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Black",
+     "handle": "copy-of-florida-a-m-rattlers-f-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-florida-a-m-rattlers-f-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/885C3DCE-1B6B-4F6A-93AC-05CC1A9B4428.jpg?v=1661881970",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/885C3DCE-1B6B-4F6A-93AC-05CC1A9B4428.jpg?v=1661881970"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "florida-a-m-rattlers-f-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-f-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/24B0AF03-2DCD-44EE-B1FF-DB101EF8A266.jpg?v=1647208282",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/24B0AF03-2DCD-44EE-B1FF-DB101EF8A266.jpg?v=1647208282"
+     ],
+     "available": true
+    },
+    {
+     "color": "Dark Green",
+     "handle": "florida-a-m-rattlers-f-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-f-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A1C52A67-E75C-4CCD-8F39-BEF19D411FAC.jpg?v=1647207785",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A1C52A67-E75C-4CCD-8F39-BEF19D411FAC.jpg?v=1647207785"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "florida a&m rattlers \"f\" premium letterman hoodie",
+   "title": "Florida A&M Rattlers “F” Premium Letterman Hoodie",
+   "school": "famu",
+   "category": "premium",
+   "price": 109.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Green",
+     "handle": "florida-a-m-rattlers-f-premium-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-f-premium-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/65FA5E61-063E-460F-89D4-B672BBA93CAB.jpg?v=1693536908",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/65FA5E61-063E-460F-89D4-B672BBA93CAB.jpg?v=1693536908"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "florida-a-m-rattlers-f-premium-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-f-premium-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/097CF453-0B95-4D29-8D12-1D3AA1B36547.jpg?v=1693528738",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/097CF453-0B95-4D29-8D12-1D3AA1B36547.jpg?v=1693528738"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "florida a&m rattlers letterman hoodie",
+   "title": "Florida A&M Rattlers Letterman Hoodie",
+   "school": "famu",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Orange",
+     "handle": "florida-a-m-rattlers-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/AB17AE0A-9C90-493E-A8E5-0E4CB05DBA3A.jpg?v=1631157163",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/AB17AE0A-9C90-493E-A8E5-0E4CB05DBA3A.jpg?v=1631157163",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/FAMUORANGE.jpg?v=1662246519",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A5AA5999-6182-437F-840A-D2C9E508BFB1.jpg?v=1662246519"
+     ],
+     "available": true
+    },
+    {
+     "color": "Dark Green",
+     "handle": "florida-a-m-rattlers-2",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/C57E2E25-E9BB-4B2F-B6C2-9FC843DDDDEE.jpg?v=1630653807",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/C57E2E25-E9BB-4B2F-B6C2-9FC843DDDDEE.jpg?v=1630653807"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "florida a&m rattlers rasta letterman hoodie",
+   "title": "Florida A&M Rattlers Rasta Letterman Hoodie",
+   "school": "famu",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Black Rasta",
+     "handle": "florida-a-m-rattlers",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/72FB429F-844C-40C5-B967-8AAC71458905.jpg?v=1630649835",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/72FB429F-844C-40C5-B967-8AAC71458905.jpg?v=1630649835"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "florida a&m rattlers signature slides",
+   "title": "Florida A&M Rattlers Signature Slides",
+   "school": "famu",
+   "category": "slides",
+   "price": 29.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White with Black Footbed",
+     "handle": "florida-a-m-rattlers-1",
+     "url": "https://www.hoodiesnstripes.com/products/florida-a-m-rattlers-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/13F61866-C157-4F80-95DD-4A65DBA37ADB.jpg?v=1630653198",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/13F61866-C157-4F80-95DD-4A65DBA37ADB.jpg?v=1630653198"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "grambling state tigers cropped letterman hoodie",
+   "title": "Grambling State Tigers Cropped Letterman Hoodie",
+   "school": "grambling",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "grambling-state-tigers-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-state-tigers-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1EA83568-3A6C-421B-BC41-2F8CDBE3579A.jpg?v=1634611435",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1EA83568-3A6C-421B-BC41-2F8CDBE3579A.jpg?v=1634611435",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/2531F3D5-CA1D-4D4C-8BB6-B606EE045B66.jpg?v=1634611434",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7AC66EFD-C519-4FEE-B501-22704C7140E9.jpg?v=1634611434",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/4420728E-BFA5-4A49-99BA-8486DEF4A526.jpg?v=1634611435"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "grambling state tigers letterman hoodie",
+   "title": "Grambling State Tigers Letterman Hoodie",
+   "school": "grambling",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Black",
+     "handle": "grambling-state-tigers-1",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-state-tigers-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/BA08FEBF-172B-4643-8AF0-C5E7BF3D01D6.jpg?v=1630648645",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/BA08FEBF-172B-4643-8AF0-C5E7BF3D01D6.jpg?v=1630648645",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_30f12c26-a7a7-4398-b299-000b53338262.jpg?v=1637974274"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "grambling-state-tigers",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-state-tigers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/DC6BB2F1-61FB-4574-B371-FD2DAC9C232C.jpg?v=1630648465",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/DC6BB2F1-61FB-4574-B371-FD2DAC9C232C.jpg?v=1630648465"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "grambling-authentic-letterman",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-authentic-letterman?variant=41346276458659",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/63110D59-CF8F-47A0-B1B7-DA34A38C438F.jpg?v=1630133462",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/63110D59-CF8F-47A0-B1B7-DA34A38C438F.jpg?v=1630133462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/582C7758-17D7-4DC6-9758-5DA24CBF7BBC.jpg?v=1630133842"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "grambling-authentic-letterman",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-authentic-letterman?variant=41346276491427",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/582C7758-17D7-4DC6-9758-5DA24CBF7BBC.jpg?v=1630133842",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/582C7758-17D7-4DC6-9758-5DA24CBF7BBC.jpg?v=1630133842",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/63110D59-CF8F-47A0-B1B7-DA34A38C438F.jpg?v=1630133462"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "grambling-authentic-letterman",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-authentic-letterman?variant=41346276524195",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/63110D59-CF8F-47A0-B1B7-DA34A38C438F.jpg?v=1630133462",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/63110D59-CF8F-47A0-B1B7-DA34A38C438F.jpg?v=1630133462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/582C7758-17D7-4DC6-9758-5DA24CBF7BBC.jpg?v=1630133842"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "grambling state tigers signature slides",
+   "title": "Grambling State Tigers Signature Slides",
+   "school": "grambling",
+   "category": "slides",
+   "price": 29.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White with Black Footbed",
+     "handle": "grambling-state-tigers-2",
+     "url": "https://www.hoodiesnstripes.com/products/grambling-state-tigers-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B80DC5D5-CBB9-4E20-A77F-1794A1271DD4.jpg?v=1630653044",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B80DC5D5-CBB9-4E20-A77F-1794A1271DD4.jpg?v=1630653044"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "howard bison letterman hoodie",
+   "title": "Howard Bison Letterman Hoodie",
+   "school": "howard",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Red",
+     "handle": "howard-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/howard-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/3E870279-7F19-468E-99A9-C66F6101EB2F.jpg?v=1661917317",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/3E870279-7F19-468E-99A9-C66F6101EB2F.jpg?v=1661917317"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "howard-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/howard-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9D9670ED-A852-45DA-B625-19A72379719B.jpg?v=1661917001",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9D9670ED-A852-45DA-B625-19A72379719B.jpg?v=1661917001"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "howard-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/howard-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1F1E9389-70AB-4692-8B9A-4DF759D564DE.jpg?v=1661916815",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1F1E9389-70AB-4692-8B9A-4DF759D564DE.jpg?v=1661916815"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers \"block\" letterman hoodie",
+   "title": "Jackson State Tigers “Block” Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Navy",
+     "handle": "jackson-state-tigers-block-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-block-letterman-hoodie-2",
+     "image": null,
+     "images": [],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "jackson-state-tigers-block-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-block-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/4ADA05AD-E1E9-4C9A-8D4A-757CFD264E1F.jpg?v=1643432532",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/4ADA05AD-E1E9-4C9A-8D4A-757CFD264E1F.jpg?v=1643432532"
+     ],
+     "available": true
+    },
+    {
+     "color": "Gray",
+     "handle": "jackson-state-tigers-block-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-block-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/08981EEE-6908-46C5-8EE5-0BDE56E8BA4C.jpg?v=1643430049",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/08981EEE-6908-46C5-8EE5-0BDE56E8BA4C.jpg?v=1643430049"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "copy-of-jackson-state-tigers",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-jackson-state-tigers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B823FE00-8AE6-44B7-912D-C99A2B4676BD.jpg?v=1630647880",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B823FE00-8AE6-44B7-912D-C99A2B4676BD.jpg?v=1630647880"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers \"j state\" letterman hoodie",
+   "title": "Jackson State Tigers “J State” Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Navy Blue",
+     "handle": "jackson-state-tigers-j-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-j-state-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CF8BADD1-D9F4-4140-A694-C20D41F0A94D.jpg?v=1631696593",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CF8BADD1-D9F4-4140-A694-C20D41F0A94D.jpg?v=1631696593"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "jackson-state-university-j-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-university-j-state-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/18339F82-E495-47AC-A55A-E1AEC5049A02.jpg?v=1662245419",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/18339F82-E495-47AC-A55A-E1AEC5049A02.jpg?v=1662245419",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/JStateRedPhoto.jpg?v=1662245419"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "copy-of-jackson-state-tigers-1",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-jackson-state-tigers-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5880802C-9653-45FD-AE1C-D798B22E1AB3.jpg?v=1630648120",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5880802C-9653-45FD-AE1C-D798B22E1AB3.jpg?v=1630648120",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_616b38cc-a779-4f64-8391-e882f1929e9b.jpg?v=1637971064"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers \"j state\" premium letterman hoodie",
+   "title": "Jackson State Tigers “J State” Premium Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "premium",
+   "price": 109.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Red",
+     "handle": "copy-of-jackson-state-tigers-j-state-premier-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-jackson-state-tigers-j-state-premier-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image.heic?v=1674162969",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image.heic?v=1674162969"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "jackson-state-tigers-j-state-premium-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-j-state-premium-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/FECCEC33-E857-4162-8EE1-A809A9A4B1AB.jpg?v=1661922253",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/FECCEC33-E857-4162-8EE1-A809A9A4B1AB.jpg?v=1661922253"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "jackson-state-tigers-j-state-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-j-state-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/0D8B9083-D33F-470B-A829-C89504DEF167.jpg?v=1661921136",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/0D8B9083-D33F-470B-A829-C89504DEF167.jpg?v=1661921136"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "jackson state tigers \"j state\" signature slides",
+   "title": "Jackson State Tigers “J State” Signature Slides",
+   "school": "jackson-state",
+   "category": "slides",
+   "price": 29.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White with Red Footbed",
+     "handle": "jackson-state-tigers-j-state-signature-slides",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-j-state-signature-slides",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/483622BB-58B2-48A2-B020-81BD02706650.jpg?v=1637859635",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/483622BB-58B2-48A2-B020-81BD02706650.jpg?v=1637859635"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers cropped \"j state\" letterman hoodie",
+   "title": "Jackson State Tigers Cropped “J State” Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "jackson-state-tigers-cropped-j-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-cropped-j-state-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A343DAF5-66CF-4BA2-AC23-3E4ECF633DA5.jpg?v=1638838218",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A343DAF5-66CF-4BA2-AC23-3E4ECF633DA5.jpg?v=1638838218"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "jackson-state-tigers-cropped-j-state-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-cropped-j-state-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_84f98533-b9ed-4e31-abc7-2c4e27b4add1.png?v=1637969031",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_84f98533-b9ed-4e31-abc7-2c4e27b4add1.png?v=1637969031",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image.jpg?v=1637969841"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "jackson-state-tigers-4",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-4",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D972379E-9AC7-4A27-85EC-359621350C1E.jpg?v=1642855012",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D972379E-9AC7-4A27-85EC-359621350C1E.jpg?v=1642855012",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_27f2db87-2706-444a-9a34-93c950709cdc.jpg?v=1642855090"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers cropped \"j state\" letterman hoodie (red \"j\" logo)",
+   "title": "Jackson State Tigers Cropped “J State” Letterman Hoodie (Red “J” Logo)",
+   "school": "jackson-state",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "jackson-state-tigers-cropped-j-state-letterman-hoodie-red-j-logo",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-cropped-j-state-letterman-hoodie-red-j-logo",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/64BAA2CD-62AB-4F72-9321-65B121F962F9.jpg?v=1667421099",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/64BAA2CD-62AB-4F72-9321-65B121F962F9.jpg?v=1667421099",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5871349E-23B9-4328-B294-535A712B07AD.jpg?v=1667421100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/FA39F90A-27ED-480F-A060-9E333D848186.jpg?v=1667421099"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers cropped tie dye \"j state\" letterman hoodie",
+   "title": "Jackson State Tigers Cropped Tie Dye “J State” Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "cropped",
+   "price": 89.99,
+   "available": false,
+   "colorways": [
+    {
+     "color": "Red Navy White Tie Dye",
+     "handle": "jackson-state-tigers-2",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F8080249-3133-4899-AD1B-CEDDF160FC23.jpg?v=1630652065",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F8080249-3133-4899-AD1B-CEDDF160FC23.jpg?v=1630652065"
+     ],
+     "available": false
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers signature slides",
+   "title": "Jackson State Tigers Signature Slides",
+   "school": "jackson-state",
+   "category": "slides",
+   "price": 29.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White with Red Footbed",
+     "handle": "jackson-state-tigers-3",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/776B6108-AB00-40FC-90EB-B4E404D1F960.jpg?v=1630653661",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/776B6108-AB00-40FC-90EB-B4E404D1F960.jpg?v=1630653661"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "jackson state tigers tie dye \"j state\" letterman hoodie",
+   "title": "Jackson State Tigers Tie Dye “J State” Letterman Hoodie",
+   "school": "jackson-state",
+   "category": "letterman",
+   "price": 89.99,
+   "available": false,
+   "colorways": [
+    {
+     "color": "Red Navy White Tie Dye",
+     "handle": "jackson-state-tigers-1",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E85A47E1-C3F8-4FAC-BDF0-D36BD01C5ED4.jpg?v=1630651380",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E85A47E1-C3F8-4FAC-BDF0-D36BD01C5ED4.jpg?v=1630651380"
+     ],
+     "available": false
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "morehouse maroon tigers letterman hoodie",
+   "title": "Morehouse Maroon Tigers Letterman Hoodie",
+   "school": "morehouse",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Maroon",
+     "handle": "morehouse-maroon-tigers-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/morehouse-maroon-tigers-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/31770319-89EF-4B8C-9DC4-4B52B1E3D851.jpg?v=1640154685",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/31770319-89EF-4B8C-9DC4-4B52B1E3D851.jpg?v=1640154685"
+     ],
+     "available": true
+    },
+    {
+     "color": "Grey",
+     "handle": "morehouse-maroon-tigers-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/morehouse-maroon-tigers-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D7E6468E-B887-4156-9561-BB01B269284A.jpg?v=1640153994",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D7E6468E-B887-4156-9561-BB01B269284A.jpg?v=1640153994",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F92AD16B-FB80-4E78-A236-4547E9C4937B.jpg?v=1640154500"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "morehouse-maroon-tigers-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/morehouse-maroon-tigers-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B6F246EF-D437-4967-AEA2-F7597528D778.jpg?v=1640153619",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B6F246EF-D437-4967-AEA2-F7597528D778.jpg?v=1640153619"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "mississippi valley state delta devils letterman hoodie",
+   "title": "Mississippi Valley State Delta Devils Letterman Hoodie",
+   "school": "mvsu",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Red",
+     "handle": "mississippi-valley-state-delta-devils-1",
+     "url": "https://www.hoodiesnstripes.com/products/mississippi-valley-state-delta-devils-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7BF121F4-6C78-44DF-B613-9283673606CE.jpg?v=1630650521",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7BF121F4-6C78-44DF-B613-9283673606CE.jpg?v=1630650521"
+     ],
+     "available": true
+    },
+    {
+     "color": "Dark Green",
+     "handle": "mississippi-valley-state-delta-devils",
+     "url": "https://www.hoodiesnstripes.com/products/mississippi-valley-state-delta-devils",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9CB19ECB-FEBB-4EA9-A199-1746A1ADD7E3.jpg?v=1630650473",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9CB19ECB-FEBB-4EA9-A199-1746A1ADD7E3.jpg?v=1630650473"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "mississippi-valley-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/mississippi-valley-state-letterman-hoodie?variant=41354936909987",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/86B44FF5-5114-47A6-A4DF-A55FD5EF6A9B.jpg?v=1638022100",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/86B44FF5-5114-47A6-A4DF-A55FD5EF6A9B.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d4effed4-b546-409a-b800-0444426abec0.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/193A1720-611A-451C-A6E0-249B2CD08639.jpg?v=1638022100"
+     ],
+     "available": true
+    },
+    {
+     "color": "Dark Green",
+     "handle": "mississippi-valley-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/mississippi-valley-state-letterman-hoodie?variant=41354936942755",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/193A1720-611A-451C-A6E0-249B2CD08639.jpg?v=1638022100",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/193A1720-611A-451C-A6E0-249B2CD08639.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d4effed4-b546-409a-b800-0444426abec0.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/86B44FF5-5114-47A6-A4DF-A55FD5EF6A9B.jpg?v=1638022100"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "mississippi-valley-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/mississippi-valley-state-letterman-hoodie?variant=41354936975523",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d4effed4-b546-409a-b800-0444426abec0.jpg?v=1638022100",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d4effed4-b546-409a-b800-0444426abec0.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/86B44FF5-5114-47A6-A4DF-A55FD5EF6A9B.jpg?v=1638022100",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/193A1720-611A-451C-A6E0-249B2CD08639.jpg?v=1638022100"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "north carolina a&t aggies cropped letterman hoodie",
+   "title": "North Carolina A&T Aggies Cropped Letterman Hoodie",
+   "school": "ncat",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "north-carolina-a-t-aggies-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/north-carolina-a-t-aggies-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/8B189486-99EF-4747-8A3E-200EFA4ED5D8.png?v=1661653916",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/8B189486-99EF-4747-8A3E-200EFA4ED5D8.png?v=1661653916"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "north-carolina-a-t-aggies-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/north-carolina-a-t-aggies-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/C919D96D-0FE8-47A5-91FB-59538D80376B.jpg?v=1631159203",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/C919D96D-0FE8-47A5-91FB-59538D80376B.jpg?v=1631159203",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1585EAE6-7E9A-4A2B-9A58-658B3C3D5D25.jpg?v=1631159203",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5992DDCD-F720-4EEA-8F3F-B698C59BD34D.jpg?v=1631159203"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "north carolina a&t aggies letterman hoodie",
+   "title": "North Carolina A&T Aggies Letterman Hoodie",
+   "school": "ncat",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "north-carolina-a-t-aggies-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/north-carolina-a-t-aggies-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/BB438F9E-0B29-43FB-B53F-9909AE5BFA09.jpg?v=1665626374",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/BB438F9E-0B29-43FB-B53F-9909AE5BFA09.jpg?v=1665626374",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/0035FEF4-3FDC-445C-8CFC-FA2B4C588F43.jpg?v=1665626374"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "copy-of-north-carolina-a-t-aggies-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-north-carolina-a-t-aggies-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d54e206d-a96c-4ebe-8931-25fdd3aae198.jpg?v=1638840765",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d54e206d-a96c-4ebe-8931-25fdd3aae198.jpg?v=1638840765"
+     ],
+     "available": true
+    },
+    {
+     "color": "Gold",
+     "handle": "north-carolina-a-t-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/north-carolina-a-t-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E534E07E-1103-4D54-929E-0240A37E4076.jpg?v=1665855115",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E534E07E-1103-4D54-929E-0240A37E4076.jpg?v=1665855115",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/1F206F76-6825-42B7-A85A-0CC03FAC802B.jpg?v=1665855115"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "north carolina a&t aggies tie dye letterman hoodie",
+   "title": "North Carolina A&T Aggies Tie Dye Letterman Hoodie",
+   "school": "ncat",
+   "category": "letterman",
+   "price": 89.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Navy Gold White Tie Dye",
+     "handle": "north-carolina-a-t-tie-dye-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/north-carolina-a-t-tie-dye-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D066A5EB-AA4D-4B00-B71B-E061D9565DCE.jpg?v=1630289360",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D066A5EB-AA4D-4B00-B71B-E061D9565DCE.jpg?v=1630289360"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "norfolk state spartans letterman hoodie",
+   "title": "Norfolk State Spartans Letterman Hoodie",
+   "school": "norfolk-state",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Gold",
+     "handle": "norfolk-state-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/norfolk-state-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4E17E9BA-0B9F-45CD-9AAD-D9A5C5CE34CA.png?v=1739723009",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4E17E9BA-0B9F-45CD-9AAD-D9A5C5CE34CA.png?v=1739723009"
+     ],
+     "available": true
+    },
+    {
+     "color": "Green",
+     "handle": "norfolk-state-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/norfolk-state-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/47C65DD0-378B-4832-B9C4-835CE9EB7BD0.jpg?v=1661917008",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/47C65DD0-378B-4832-B9C4-835CE9EB7BD0.jpg?v=1661917008"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "prairie view a&m panthers cropped letterman hoodie",
+   "title": "Prairie View A&M Panthers Cropped Letterman Hoodie",
+   "school": "pvamu",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Purple",
+     "handle": "letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E5C61629-0554-4088-9A9B-4CFE7B04E539.jpg?v=1661913825",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E5C61629-0554-4088-9A9B-4CFE7B04E539.jpg?v=1661913825"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "prairie view a&m panthers letterman hoodie",
+   "title": "Prairie View A&M Panthers Letterman Hoodie",
+   "school": "pvamu",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Gold",
+     "handle": "prairie-view-a-m-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-a-m-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9420947E-36F7-494E-B14D-9B5611CAF71B.jpg?v=1661914533",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9420947E-36F7-494E-B14D-9B5611CAF71B.jpg?v=1661914533"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "prairie-view-a-m-panthers-1",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-a-m-panthers-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/359292F5-2D64-4EF2-9CB5-4480089F12BD.jpg?v=1630649639",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/359292F5-2D64-4EF2-9CB5-4480089F12BD.jpg?v=1630649639",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_a1698f16-c3c6-48c8-a8c0-162d5dd43007.png?v=1637973728"
+     ],
+     "available": true
+    },
+    {
+     "color": "Purple",
+     "handle": "prairie-view-a-m-panthers",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-a-m-panthers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E6B236C9-E0EC-4CFE-9CBB-8AEC51FFE61A.jpg?v=1630649599",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/E6B236C9-E0EC-4CFE-9CBB-8AEC51FFE61A.jpg?v=1630649599",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_14dbe279-6852-4468-9078-129daf0c8eaa.png?v=1637973542"
+     ],
+     "available": true
+    },
+    {
+     "color": "Purple",
+     "handle": "prairie-view-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-letterman-hoodie?variant=41354733912227",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/76DE3897-07E5-4C47-B093-A77EB73F73C1.jpg?v=1630287462",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/76DE3897-07E5-4C47-B093-A77EB73F73C1.jpg?v=1630287462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/34CB66C2-CC6B-4FF2-BC5E-D0F833436AC6.jpg?v=1630287462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_2e97bdfa-0e47-4d7f-8c3d-134af37fcaf8.jpg?v=1637973224"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "prairie-view-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-letterman-hoodie?variant=41354733944995",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_2e97bdfa-0e47-4d7f-8c3d-134af37fcaf8.jpg?v=1637973224",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_2e97bdfa-0e47-4d7f-8c3d-134af37fcaf8.jpg?v=1637973224",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/76DE3897-07E5-4C47-B093-A77EB73F73C1.jpg?v=1630287462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/34CB66C2-CC6B-4FF2-BC5E-D0F833436AC6.jpg?v=1630287462"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "prairie-view-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/prairie-view-letterman-hoodie?variant=41354733977763",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/34CB66C2-CC6B-4FF2-BC5E-D0F833436AC6.jpg?v=1630287462",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/34CB66C2-CC6B-4FF2-BC5E-D0F833436AC6.jpg?v=1630287462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/76DE3897-07E5-4C47-B093-A77EB73F73C1.jpg?v=1630287462",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_2e97bdfa-0e47-4d7f-8c3d-134af37fcaf8.jpg?v=1637973224"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "south carolina state bulldogs letterman hoodie",
+   "title": "South Carolina State Bulldogs Letterman Hoodie",
+   "school": "sc-state",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Navy",
+     "handle": "south-carolina-state-letterman-hoodie-3",
+     "url": "https://www.hoodiesnstripes.com/products/south-carolina-state-letterman-hoodie-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9CE76867-A3CB-4C34-BF9C-091A83A5005A.jpg?v=1661919632",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9CE76867-A3CB-4C34-BF9C-091A83A5005A.jpg?v=1661919632"
+     ],
+     "available": true
+    },
+    {
+     "color": "Maroon",
+     "handle": "south-carolina-state-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/south-carolina-state-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/861DFB37-C4CE-40AE-AFD1-6A91A484CF33.jpg?v=1661919422",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/861DFB37-C4CE-40AE-AFD1-6A91A484CF33.jpg?v=1661919422"
+     ],
+     "available": true
+    },
+    {
+     "color": "Blue",
+     "handle": "south-carolina-state-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/south-carolina-state-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/207220B8-082A-4CC5-9FB1-E63FF686DE86.jpg?v=1661919222",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/207220B8-082A-4CC5-9FB1-E63FF686DE86.jpg?v=1661919222"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "south-carolina-state-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/south-carolina-state-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/649F8838-2E9E-4A8D-977F-15421C6B8D51.jpg?v=1661918901",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/649F8838-2E9E-4A8D-977F-15421C6B8D51.jpg?v=1661918901"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "southern jaguars cropped letterman hoodie",
+   "title": "Southern Jaguars Cropped Letterman Hoodie",
+   "school": "southern",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Black",
+     "handle": "southern-jaguars-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/southern-jaguars-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CC3BB0FC-8FCE-4D96-AAF9-2A9C6D1B1789.png?v=1661931454",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CC3BB0FC-8FCE-4D96-AAF9-2A9C6D1B1789.png?v=1661931454"
+     ],
+     "available": true
+    },
+    {
+     "color": "Yellow Gold",
+     "handle": "southern-jaguars",
+     "url": "https://www.hoodiesnstripes.com/products/southern-jaguars",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/16A81F4A-E45C-4C10-A91D-BE86F281EC21.jpg?v=1630649465",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/16A81F4A-E45C-4C10-A91D-BE86F281EC21.jpg?v=1630649465",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_d30f8e5c-e5b9-439d-a7b8-5ae30085aa03.jpg?v=1637973956"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "southern jaguars letterman hoodie",
+   "title": "Southern Jaguars Letterman Hoodie",
+   "school": "southern",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Yellow",
+     "handle": "southern-letterman-hoodies",
+     "url": "https://www.hoodiesnstripes.com/products/southern-letterman-hoodies?variant=41354892279971",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/588EE6EF-97DE-42AC-A6CF-296AA6246C40.jpg?v=1630289998",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/588EE6EF-97DE-42AC-A6CF-296AA6246C40.jpg?v=1630289998",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_43151e0a-a34e-45d3-bb61-76d4f917649e.jpg?v=1669185226",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D64579C5-008E-4947-B72F-FF441C7F0075.jpg?v=1695938401"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "southern-letterman-hoodies",
+     "url": "https://www.hoodiesnstripes.com/products/southern-letterman-hoodies?variant=41354892312739",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D64579C5-008E-4947-B72F-FF441C7F0075.jpg?v=1695938401",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D64579C5-008E-4947-B72F-FF441C7F0075.jpg?v=1695938401",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/588EE6EF-97DE-42AC-A6CF-296AA6246C40.jpg?v=1630289998",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_43151e0a-a34e-45d3-bb61-76d4f917649e.jpg?v=1669185226"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "southern-letterman-hoodies",
+     "url": "https://www.hoodiesnstripes.com/products/southern-letterman-hoodies?variant=41354892345507",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_43151e0a-a34e-45d3-bb61-76d4f917649e.jpg?v=1669185226",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/image_43151e0a-a34e-45d3-bb61-76d4f917649e.jpg?v=1669185226",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/588EE6EF-97DE-42AC-A6CF-296AA6246C40.jpg?v=1630289998",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/D64579C5-008E-4947-B72F-FF441C7F0075.jpg?v=1695938401"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "southern university jaguars letterman hoodie",
+   "title": "Southern University Jaguars Letterman Hoodie",
+   "school": "southern",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "southern-university-jaguars",
+     "url": "https://www.hoodiesnstripes.com/products/southern-university-jaguars",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/19820115-7930-432A-A20D-C6374E397B0E.jpg?v=1631156128",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/19820115-7930-432A-A20D-C6374E397B0E.jpg?v=1631156128",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/443625AA-B5CB-40E3-A606-CA8526CC97EC.jpg?v=1631156128"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "tennessee state tigers letterman hoodie",
+   "title": "Tennessee State Tigers Letterman Hoodie",
+   "school": "tsu",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Red",
+     "handle": "tennessee-state-tigers-letterman-hoodie-3",
+     "url": "https://www.hoodiesnstripes.com/products/tennessee-state-tigers-letterman-hoodie-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A4B81248-D56B-4212-9ED4-AA164DCC4364.jpg?v=1647205312",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A4B81248-D56B-4212-9ED4-AA164DCC4364.jpg?v=1647205312"
+     ],
+     "available": true
+    },
+    {
+     "color": "Royal",
+     "handle": "tennessee-state-tigers-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/tennessee-state-tigers-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B5E54D44-FD0A-4C61-A532-C0154BDF056B.jpg?v=1640155386",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B5E54D44-FD0A-4C61-A532-C0154BDF056B.jpg?v=1640155386"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "tennessee-state-tigers-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/tennessee-state-tigers-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/57534B92-A4CD-45D2-BF61-15CFFEEF0434.jpg?v=1640155119",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/57534B92-A4CD-45D2-BF61-15CFFEEF0434.jpg?v=1640155119"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "tuskegee golden tigers cropped letterman hoodie",
+   "title": "Tuskegee Golden Tigers Cropped Letterman Hoodie",
+   "school": "tuskegee",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Gold",
+     "handle": "tuskegee-golden-tigers-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/tuskegee-golden-tigers-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/71DF1172-2E74-452B-86A1-0094B2BFEB63.jpg?v=1667419144",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/71DF1172-2E74-452B-86A1-0094B2BFEB63.jpg?v=1667419144",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B994B515-BD1B-49A2-B8B6-754CB6CDC12E.jpg?v=1667419144",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/120EF355-FA0B-40D1-9BF2-62714234D6E6.jpg?v=1667419144"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "tuskegee golden tigers letterman hoodie",
+   "title": "Tuskegee Golden Tigers Letterman Hoodie",
+   "school": "tuskegee",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "tuskegee-letterman-hoodie-2",
+     "url": "https://www.hoodiesnstripes.com/products/tuskegee-letterman-hoodie-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/80E26B5C-6633-4AB2-B3A4-B28BC8DA771A.jpg?v=1661916089",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/80E26B5C-6633-4AB2-B3A4-B28BC8DA771A.jpg?v=1661916089"
+     ],
+     "available": true
+    },
+    {
+     "color": "Gold",
+     "handle": "tuskegee-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/tuskegee-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/8FD2D9DE-A521-4985-BF9A-DF4C27855877.jpg?v=1667418516",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/8FD2D9DE-A521-4985-BF9A-DF4C27855877.jpg?v=1667418516"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "tuskegee-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/tuskegee-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5C58F91F-D5B4-4643-9403-738DC68E8CB0.jpg?v=1661915336",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/5C58F91F-D5B4-4643-9403-738DC68E8CB0.jpg?v=1661915336"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "xavier university of louisiana cropped letterman hoodie",
+   "title": "Xavier University of Louisiana Cropped Letterman Hoodie",
+   "school": "xula",
+   "category": "cropped",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Green",
+     "handle": "copy-of-xavier-university-of-louisiana-cropped-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-xavier-university-of-louisiana-cropped-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9F826054-2140-49E0-818A-136B9BABC9D4.jpg?v=1665835292",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/9F826054-2140-49E0-818A-136B9BABC9D4.jpg?v=1665835292"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "copy-of-xavier-university-of-louisiana-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-xavier-university-of-louisiana-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F73BAF65-0496-41A6-941F-8AB49CFF31E3.jpg?v=1665834203",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F73BAF65-0496-41A6-941F-8AB49CFF31E3.jpg?v=1665834203",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F43AFF87-A983-4A45-941C-CBFCF2E6A1A1.jpg?v=1665835803",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D108ACBB-CDAE-4007-9324-F64DEC35C134.jpg?v=1665835803"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "xavier university of louisiana letterman hoodie",
+   "title": "Xavier University of Louisiana Letterman Hoodie",
+   "school": "xula",
+   "category": "letterman",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "White",
+     "handle": "xavier-university-of-louisiana-letterman-hoodie-3",
+     "url": "https://www.hoodiesnstripes.com/products/xavier-university-of-louisiana-letterman-hoodie-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/62F4A5E4-28F4-4580-B825-463D2C08D213.jpg?v=1661914910",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/62F4A5E4-28F4-4580-B825-463D2C08D213.jpg?v=1661914910"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "xavier-university-of-louisiana-letterman-hoodie-1",
+     "url": "https://www.hoodiesnstripes.com/products/xavier-university-of-louisiana-letterman-hoodie-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D719F99D-48D2-405F-BE52-C0B1DE4FE017.jpg?v=1661914127",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D719F99D-48D2-405F-BE52-C0B1DE4FE017.jpg?v=1661914127"
+     ],
+     "available": true
+    },
+    {
+     "color": "Green",
+     "handle": "xavier-university-of-louisiana-letterman-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/xavier-university-of-louisiana-letterman-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B6ACFDED-713D-4E68-8F72-61E1CDC04880.jpg?v=1661913891",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/B6ACFDED-713D-4E68-8F72-61E1CDC04880.jpg?v=1661913891"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "h+s camouflage hoodie",
+   "title": "H+S Camouflage Hoodie",
+   "school": null,
+   "category": "hoodies",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Giraffe Camouflage",
+     "handle": "h-s-camouflage-hoodie",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-camouflage-hoodie",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F797AFAF-CD68-488D-8286-0D43FD0F94A6.jpg?v=1661933080",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/F797AFAF-CD68-488D-8286-0D43FD0F94A6.jpg?v=1661933080"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "h+s houndstooth jogger pant",
+   "title": "H+S Houndstooth Jogger Pant",
+   "school": null,
+   "category": "joggers",
+   "price": 79.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Houndstooth",
+     "handle": "h-s-houndstooth-jogger-pant",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-houndstooth-jogger-pant",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/9E6F2ED8-A12C-4291-8846-78F973B3305F.jpg?v=1760404177",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/9E6F2ED8-A12C-4291-8846-78F973B3305F.jpg?v=1760404177",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/IMG-4887.jpg?v=1760404169",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/35153C30-3FC3-4CB6-BE45-B802FBC2FB92.png?v=1760404169"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": true
+  },
+  {
+   "key": "h+s premium jogger pant",
+   "title": "H+S Premium Jogger Pant",
+   "school": null,
+   "category": "joggers",
+   "price": 39.99,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Cream/Off-White",
+     "handle": "h-s-premium-jogger-pant-3",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-premium-jogger-pant-3",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/6C371E28-E225-4030-A99A-9CC22B4AE417.jpg?v=1726375287",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/6C371E28-E225-4030-A99A-9CC22B4AE417.jpg?v=1726375287"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "copy-of-h-s-premium-jogger-pant",
+     "url": "https://www.hoodiesnstripes.com/products/copy-of-h-s-premium-jogger-pant",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender_d9f647e8-b258-41cc-9466-aa0468211a1b.jpg?v=1694216487",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender_d9f647e8-b258-41cc-9466-aa0468211a1b.jpg?v=1694216487"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "h-s-premium-jogger-pant-2",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-premium-jogger-pant-2",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4716FED5-7238-4F6C-AA93-FE60579A13BD.jpg?v=1694314873",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/4716FED5-7238-4F6C-AA93-FE60579A13BD.jpg?v=1694314873",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/IMG_1017.jpg?v=1694314873"
+     ],
+     "available": true
+    },
+    {
+     "color": "Dark Green",
+     "handle": "h-s-premium-jogger-pant-1",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-premium-jogger-pant-1",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/F89BE1EB-CAA4-4388-99AE-D2D5B794FAEB.jpg?v=1694196582",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/F89BE1EB-CAA4-4388-99AE-D2D5B794FAEB.jpg?v=1694196582"
+     ],
+     "available": true
+    },
+    {
+     "color": "Black",
+     "handle": "h-s-premium-jogger-pant",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-premium-jogger-pant",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/50A85FFB-7103-49E4-8206-AC2961BF1A6A.jpg?v=1694188150",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/50A85FFB-7103-49E4-8206-AC2961BF1A6A.jpg?v=1694188150"
+     ],
+     "available": true
+    },
+    {
+     "color": "Navy",
+     "handle": "h-s-premium-joggers",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-premium-joggers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A9D6D370-9778-475A-B6D0-EFE29C61A5BB.jpg?v=1661923743",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/A9D6D370-9778-475A-B6D0-EFE29C61A5BB.jpg?v=1661923743",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/61C40DDA-49C1-4328-BAD9-1DCCCAA1FEFA.jpg?v=1661923743"
+     ],
+     "available": true
+    },
+    {
+     "color": "White",
+     "handle": "jackson-state-tigers-j-state-premium-joggers",
+     "url": "https://www.hoodiesnstripes.com/products/jackson-state-tigers-j-state-premium-joggers",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CE7EDB34-327E-41F3-9616-6BFCE431F5D2.jpg?v=1661923645",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/CE7EDB34-327E-41F3-9616-6BFCE431F5D2.jpg?v=1661923645",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/62D5E671-81B1-47D4-94C4-393858A97499.jpg?v=1661923645"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  },
+  {
+   "key": "h+s signature stripes sock",
+   "title": "H+S Signature Stripes Sock",
+   "school": null,
+   "category": "socks",
+   "price": 10,
+   "available": true,
+   "colorways": [
+    {
+     "color": "Navy",
+     "handle": "h-s-signature-sock",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-signature-sock?variant=43209772499192",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7412F99D-D2EC-48B9-9ADD-6FE7AB001C2C.jpg?v=1661926523",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7412F99D-D2EC-48B9-9ADD-6FE7AB001C2C.jpg?v=1661926523",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D147E490-D5A1-41D7-9AA5-A0C5272A7495.jpg?v=1661926720"
+     ],
+     "available": true
+    },
+    {
+     "color": "Red",
+     "handle": "h-s-signature-sock",
+     "url": "https://www.hoodiesnstripes.com/products/h-s-signature-sock?variant=43209898819832",
+     "image": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7412F99D-D2EC-48B9-9ADD-6FE7AB001C2C.jpg?v=1661926523",
+     "images": [
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/7412F99D-D2EC-48B9-9ADD-6FE7AB001C2C.jpg?v=1661926523",
+      "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/D147E490-D5A1-41D7-9AA5-A0C5272A7495.jpg?v=1661926720"
+     ],
+     "available": true
+    }
+   ],
+   "newDrop": false
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "culture": {
+  "src": "https://cdn.shopify.com/s/files/1/0586/0042/3587/files/FullSizeRender.jpg?v=1693588160",
+  "url": "https://www.hoodiesnstripes.com/products/colorado-buffaloes-letterman-hoodie-copy",
+  "school": "colorado",
+  "alt": "Model in a houndstooth Colorado Buffaloes cropped letterman hoodie holding a pool cue"
+ },
+ "story": {
+  "eyebrow": "Est. 2020",
+  "title": "Culture looks good on you.",
+  "body": "It started in 2020 with a tailor-made hoodie, embellished with chenille patches and signature stripes. One week after the site launched, Coach Prime wore an authentic letterman while recruiting at a high school football game, and H+S became a fan-favorite streetwear brand. Today it’s the “Maybach” of licensed hoodies.",
+  "source": "https://www.hoodiesnstripes.com/pages/about"
+ },
+ "popup": {
+  "src": "https://cdn.shopify.com/s/files/1/0586/0042/3587/products/18339F82-E495-47AC-A55A-E1AEC5049A02.jpg?v=1662245419",
+  "url": "https://www.hoodiesnstripes.com/products/jackson-state-university-j-state-letterman-hoodie",
+  "school": "jackson-state",
+  "alt": "Model in a red Jackson State “J State” letterman hoodie"
+ },
+ "vanderbiltSlides": [
+  {
+   "colorway": "camo",
+   "main": "vu-dsc06519",
+   "detail": "vu-6192",
+   "fit": "Regular fit"
+  },
+  {
+   "colorway": "cream",
+   "main": "vu-6272",
+   "detail": "vu-6295",
+   "fit": "Regular fit"
+  },
+  {
+   "colorway": "black",
+   "main": "vu-6374",
+   "detail": "vu-6316",
+   "fit": "Regular + cropped"
+  },
+  {
+   "colorway": "white",
+   "main": "vu-6407",
+   "detail": "vu-6417",
+   "fit": "Regular + cropped"
+  }
+ ]
+}

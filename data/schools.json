@@ -1,0 +1,149 @@
+{
+ "vanderbilt": {
+  "name": "Vanderbilt University",
+  "short": "Vanderbilt",
+  "primary": "#1c1c1c",
+  "secondary": "#cfae70",
+  "source": "https://brand.vanderbilt.edu/color/",
+  "inStore": false
+ },
+ "alabama": {
+  "name": "University of Alabama",
+  "short": "Alabama",
+  "primary": "#9e1b32",
+  "secondary": "#828a8f",
+  "source": "https://brand.ua.edu/colors/",
+  "inStore": true
+ },
+ "alabama-am": {
+  "name": "Alabama A&M University",
+  "short": "Alabama A&M",
+  "primary": "#61162d",
+  "secondary": "#ffffff",
+  "source": "https://www.aamu.edu/brand",
+  "inStore": true
+ },
+ "colorado": {
+  "name": "University of Colorado Boulder",
+  "short": "Colorado",
+  "primary": "#cfb87c",
+  "secondary": "#000000",
+  "source": "https://www.colorado.edu/brand/how-use/color",
+  "inStore": true
+ },
+ "famu": {
+  "name": "Florida A&M University",
+  "short": "FAMU",
+  "primary": "#f4811f",
+  "secondary": "#008344",
+  "source": "https://static.famuathletics.com/custompages/pdf9/4488310.pdf",
+  "inStore": true
+ },
+ "howard": {
+  "name": "Howard University",
+  "short": "Howard",
+  "primary": "#003a63",
+  "secondary": "#e51937",
+  "source": "https://ouc.howard.edu/our-services/creative-branding-multimedia/colors-typography",
+  "inStore": true
+ },
+ "jackson-state": {
+  "name": "Jackson State University",
+  "short": "Jackson State",
+  "primary": "#002147",
+  "secondary": "#ffffff",
+  "source": "https://www.jsums.edu/universitycommunications/files/2020/04/2019-Brand-Style-Guide-FINAL.pdf",
+  "inStore": true
+ },
+ "morehouse": {
+  "name": "Morehouse College",
+  "short": "Morehouse",
+  "primary": "#840028",
+  "secondary": "#ffffff",
+  "source": "https://morehouse.edu/hubfs/22200391/Files/PDFs/Brand-Guidelines-March-2021.pdf",
+  "inStore": true
+ },
+ "ncat": {
+  "name": "North Carolina A&T State University",
+  "short": "NC A&T",
+  "primary": "#004684",
+  "secondary": "#fdb927",
+  "source": "https://hub.ncat.edu/administration/chancellor/university-relations/branding/visual-identity/color-palette.php",
+  "inStore": true
+ },
+ "norfolk-state": {
+  "name": "Norfolk State University",
+  "short": "Norfolk State",
+  "primary": "#007a53",
+  "secondary": "#f3d03e",
+  "source": "https://www.nsu.edu/About/Administrative-Offices-Services/Communications-and-Marketing/Brand-and-Visual-Identity/Brand-Logo",
+  "inStore": true
+ },
+ "pvamu": {
+  "name": "Prairie View A&M University",
+  "short": "Prairie View",
+  "primary": "#582c83",
+  "secondary": "#eaaa00",
+  "source": "https://www.pvamu.edu/marcomm/resources/colors/",
+  "inStore": true
+ },
+ "sc-state": {
+  "name": "South Carolina State University",
+  "short": "SC State",
+  "primary": "#740000",
+  "secondary": "#002f70",
+  "source": "https://scsu.edu/strategic_communications-marketing/SCSU%20Branding-revised.pdf",
+  "inStore": true
+ },
+ "tsu": {
+  "name": "Tennessee State University",
+  "short": "Tennessee State",
+  "primary": "#00539f",
+  "secondary": "#ffffff",
+  "source": "https://tnstate.edu/publications/documents/StyleGuide.pdf",
+  "inStore": true
+ },
+ "tuskegee": {
+  "name": "Tuskegee University",
+  "short": "Tuskegee",
+  "primary": "#7b0707",
+  "secondary": "#f2bd2c",
+  "source": "https://www.tuskegee.edu/Content/Uploads/Tuskegee/files/OCPRM/Brand-Standards-Manual.pdf",
+  "inStore": true
+ },
+ "xula": {
+  "name": "Xavier University of Louisiana",
+  "short": "Xavier",
+  "primary": "#ffc530",
+  "secondary": "#ffffff",
+  "source": "https://www.xula.edu/_blocks/navigation/sub-navs/xula-identity-guidelines-updated6_221-1.pdf",
+  "inStore": true
+ },
+ "grambling": {
+  "name": "Grambling State University",
+  "short": "Grambling",
+  "source": "https://gram.edu/aboutus/administration/advancement/licensing/docs/grambling_marks_07-14-21.pdf",
+  "primary": "#0d0d0d",
+  "secondary": "#f3efe6",
+  "inStore": true,
+  "colorsPending": true
+ },
+ "mvsu": {
+  "name": "Mississippi Valley State University",
+  "short": "MVSU",
+  "source": "https://www.mvsu.edu/sites/default/files/mvsu_styleguide.pdf",
+  "primary": "#0d0d0d",
+  "secondary": "#f3efe6",
+  "inStore": true,
+  "colorsPending": true
+ },
+ "southern": {
+  "name": "Southern University",
+  "short": "Southern",
+  "source": "https://www.subr.edu/assets/subr/MediaRelations/SU-visual-style-guide_Oct2024.pdf",
+  "primary": "#0d0d0d",
+  "secondary": "#f3efe6",
+  "inStore": true,
+  "colorsPending": true
+ }
+}
