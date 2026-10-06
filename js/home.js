@@ -6,6 +6,25 @@ const doc = document;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const PAGE = 8;
 
+// ---- motion: text and rows arrive as you scroll; photos are never hidden ----
+// Only switched on when motion is welcome and the tab is actually visible, with two safety nets:
+// a hidden tab shows everything at once, and a sweep shows anything already on screen.
+const motionTargets = [...doc.querySelectorAll('[data-reveal], [data-write], [data-rise]')];
+if (!reducedMotion && !doc.hidden && 'IntersectionObserver' in window) {
+  doc.documentElement.classList.add('motion');
+  doc.querySelectorAll('[data-rise]').forEach((row) => [...row.children].forEach((c, i) => c.style.setProperty('--i', String(Math.min(i, 8)))));
+  const showAll = () => motionTargets.forEach((t) => t.classList.add('is-in'));
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+  }, { rootMargin: '0px 0px -6% 0px' });
+  motionTargets.forEach((t) => io.observe(t));
+  const sweep = () => motionTargets.forEach((t) => { if (!t.classList.contains('is-in') && t.getBoundingClientRect().top < innerHeight) t.classList.add('is-in'); });
+  let sweepTimer;
+  addEventListener('scroll', () => { clearTimeout(sweepTimer); sweepTimer = setTimeout(sweep, 350); }, { passive: true });
+  setTimeout(sweep, 1200);
+  doc.addEventListener('visibilitychange', () => { if (doc.hidden) showAll(); });
+}
+
 const schools = await fetch('data/schools.json').then((r) => r.json()).catch(() => ({}));
 
 // ---- shop by school: tiles filter the shop grid, 8 at a time ----
@@ -54,7 +73,12 @@ tiles.forEach((t) => t.addEventListener('click', () => {
   pick(t.dataset.school);
   shop.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
 }));
-more.addEventListener('click', () => { limit += PAGE; render(); });
+more.addEventListener('click', () => {
+  const before = new Set(cards.filter((c) => !c.hidden));
+  limit += PAGE;
+  render();
+  cards.filter((c) => !c.hidden && !before.has(c)).forEach((c) => { c.classList.remove('is-new'); void c.offsetWidth; c.classList.add('is-new'); });
+});
 const saved = local.get('hs-school');
 pick(saved && (saved === 'all' || schools[saved]) ? saved : 'all', { remember: false });
 
@@ -161,6 +185,7 @@ let vuHold = false; // hover, focus or a hidden tab holds autoplay without turni
 let vuTimer = null;
 
 function vuRender() {
+  vuSlides.forEach((sl, k) => sl.toggleAttribute('data-active', k === vuIndex));
   vuTabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === vuIndex)); t.tabIndex = k === vuIndex ? 0 : -1; });
   vuCount.textContent = `${two(vuIndex + 1)} / ${two(vuSlides.length)}`;
 }

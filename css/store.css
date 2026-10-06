@@ -154,3 +154,24 @@
 .modal__skip { justify-self: center; padding: .4rem; border: 0; background: none; color: var(--ink-2); font-size: .88rem; text-decoration: underline; cursor: pointer; }
 @media (max-width: 700px) { .modal[open] { grid-template-columns: 1fr; } .modal__media { display: none; } }
 .site-footer__script { font-size: 1.6rem; color: var(--on-dark); transform: rotate(-4deg); }
+
+/* ---------- motion: only after JS confirms motion is welcome and the tab is visible ----------
+   Text fades up, brush underlines draw, notes write themselves on, rows of cards rise.
+   Photos are never hidden: the most an image ever gets is a slow scale. */
+html.motion [data-reveal] { transition: opacity .7s var(--ease-out) var(--d, 0s), transform .9s var(--ease-out) var(--d, 0s); }
+html.motion [data-reveal]:not(.is-in) { opacity: 0; transform: translateY(18px); }
+html.motion [data-reveal] .brush { transform-origin: left center; transition: transform .9s var(--ease-out) calc(var(--d, 0s) + .35s); }
+html.motion [data-reveal]:not(.is-in) .brush { transform: scaleX(0); }
+html.motion [data-write] { clip-path: inset(-40% -12% -40% -12%); transition: clip-path 1.2s var(--ease-out) var(--d, .15s); }
+html.motion [data-write]:not(.is-in) { clip-path: inset(-40% 100% -40% -12%); }
+.note__arrow path { stroke-dasharray: 160; stroke-dashoffset: 0; }
+html.motion [data-write] .note__arrow path { transition: stroke-dashoffset .9s var(--ease-out) calc(var(--d, .15s) + .7s); }
+html.motion [data-write]:not(.is-in) .note__arrow path { stroke-dashoffset: 160; }
+html.motion [data-rise] > * { transition: translate .9s var(--ease-out) calc(var(--i, 0) * 70ms), transform .35s var(--ease-out); }
+html.motion [data-rise]:not(.is-in) > * { translate: 0 28px; }
+html.motion .card.is-new { animation: card-in .7s var(--ease-out) both; }
+@keyframes card-in { from { translate: 0 22px; } }
+.card { transition: transform .35s var(--ease-out); }
+@media (hover: hover) { .card:hover { transform: translateY(-4px); } }
+@media (prefers-reduced-motion: no-preference) { .wave { transform-origin: 8% 50%; animation: pennant-wave 3.6s ease-in-out infinite; } }
+@keyframes pennant-wave { 0%, 100% { transform: rotate(-3deg) skewY(-1deg); } 50% { transform: rotate(3deg) skewY(1.5deg); } }
