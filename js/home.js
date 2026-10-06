@@ -169,39 +169,41 @@ if (!reducedMotion && 'IntersectionObserver' in window) {
   reels.forEach((v) => { v.muted = true; io.observe(v); });
 }
 
-// ---- Vanderbilt slider: one slide per colorway, tabs + arrows, gentle autoplay ----
+// ---- Vanderbilt hero: one colorway at a time, crossfading; tabs, arrows, swipe, gentle autoplay ----
 const vu = doc.getElementById('vanderbilt');
-const vuTrack = vu.querySelector('[data-slides]');
-const vuSlides = [...vuTrack.children];
+const vuSlides = [...vu.querySelectorAll('.vu-slide')];
 const vuTabs = [...vu.querySelectorAll('[data-slide-to]')];
 const vuCount = vu.querySelector('[data-slide-count]');
 const vuPause = vu.querySelector('[data-slide-pause]');
 const VU_INTERVAL = 6000;
 const two = (n) => String(n).padStart(2, '0');
 let vuIndex = 0;
-let vuTarget = null; // slide a programmatic scroll is heading to; ignore slides passed on the way
 let vuPlaying = !reducedMotion;
 let vuHold = false; // hover, focus or a hidden tab holds autoplay without turning it off
 let vuTimer = null;
 
 function vuRender() {
-  vuSlides.forEach((sl, k) => sl.toggleAttribute('data-active', k === vuIndex));
+  vuSlides.forEach((sl, k) => { sl.toggleAttribute('data-active', k === vuIndex); sl.setAttribute('aria-hidden', String(k !== vuIndex)); });
   vuTabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === vuIndex)); t.tabIndex = k === vuIndex ? 0 : -1; });
   vuCount.textContent = `${two(vuIndex + 1)} / ${two(vuSlides.length)}`;
+  // On phones the pill row scrolls sideways: keep the active pill in view (never moves the page)
+  const row = vuTabs[vuIndex].parentElement;
+  if (row.scrollWidth > row.clientWidth) {
+    const t = vuTabs[vuIndex].getBoundingClientRect();
+    const r = row.getBoundingClientRect();
+    row.scrollTo({ left: row.scrollLeft + (t.left - r.left) - (row.clientWidth - t.width) / 2, behavior: reducedMotion ? 'auto' : 'smooth' });
+  }
 }
 function vuSchedule() {
   clearTimeout(vuTimer);
-  const on = vuPlaying && !vuHold;
   vu.classList.remove('is-playing');
-  if (!on) return;
+  if (!vuPlaying || vuHold) return;
   void vu.offsetWidth; // restart the progress bar on the active tab
   vu.classList.add('is-playing');
   vuTimer = setTimeout(() => vuShow(vuIndex + 1), VU_INTERVAL);
 }
 function vuShow(i) {
   vuIndex = (i + vuSlides.length) % vuSlides.length;
-  vuTarget = vuIndex;
-  vuTrack.scrollTo({ left: vuSlides[vuIndex].offsetLeft, behavior: reducedMotion ? 'auto' : 'smooth' });
   vuRender();
   vuSchedule();
 }
@@ -233,18 +235,19 @@ vuPause.addEventListener('click', () => {
   vuSchedule();
 });
 if (!vuPlaying) { vuPause.setAttribute('aria-pressed', 'true'); vuPause.setAttribute('aria-label', 'Play slideshow'); }
-// Swipes update the tabs; a swipe means the shopper took over.
-if ('IntersectionObserver' in window) {
-  const seen = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      const k = vuSlides.indexOf(e.target);
-      if (vuTarget !== null) { if (k === vuTarget) vuTarget = null; continue; }
-      if (k !== vuIndex) { vuIndex = k; vuStop(); vuRender(); }
-    }
-  }, { root: vuTrack, threshold: 0.6 });
-  vuSlides.forEach((sl) => seen.observe(sl));
-}
+// Swipe left/right on the photos; a swipe means the shopper took over.
+const vuStage = vu.querySelector('.vu__slider');
+let swipeX = null;
+vuStage.addEventListener('pointerdown', (e) => { swipeX = e.clientX; });
+vuStage.addEventListener('pointercancel', () => { swipeX = null; });
+vuStage.addEventListener('pointerup', (e) => {
+  if (swipeX === null) return;
+  const dx = e.clientX - swipeX;
+  swipeX = null;
+  if (Math.abs(dx) < 40) return;
+  vuStop();
+  vuShow(vuIndex + (dx < 0 ? 1 : -1));
+});
 const vuHoldOn = () => { vuHold = true; vuSchedule(); };
 const vuHoldOff = () => { vuHold = vu.matches(':hover') || vu.contains(doc.activeElement) || doc.hidden; vuSchedule(); };
 vu.addEventListener('mouseenter', vuHoldOn);

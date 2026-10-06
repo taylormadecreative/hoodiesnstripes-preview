@@ -15,7 +15,7 @@
   --white: #fffcf6;
   --line: rgba(14, 13, 12, 0.12);
   --line-2: #d8cdb9;
-  --hs-red: #b42a14;
+  --hs-red: #b42e10;  /* sampled from the logo pennant (average of its sweep) */
   --hs-red-deep: #8a2008;
   --vandy-gold: #c9a35d; /* Vanderbilt campaign only, never the site theme */
   --on-dark: #efe8dc;
