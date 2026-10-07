@@ -16,15 +16,22 @@ body { background: var(--cream) var(--grain); }
 .rv-hero { padding-block: clamp(2.6rem, 1.8rem + 4vw, 5rem) clamp(2.4rem, 1.6rem + 3vw, 4.2rem); background: var(--ink) var(--grain-dark); color: var(--on-dark); }
 .rv-eyebrow { display: flex; align-items: center; gap: .7rem; margin-bottom: 1.1rem; font-size: .76rem; font-weight: 800; letter-spacing: .26em; text-transform: uppercase; color: var(--gel); }
 .rv-eyebrow img { width: 52px; height: auto; }
-.rv-hero h1 { max-width: 15ch; }
+.rv-hero h1 { max-width: 20ch; }
+.rv-stat { display: inline-grid; gap: .3rem; margin-top: 1.6rem; padding: 1rem 1.3rem 1.1rem; border: 1px solid rgba(239, 232, 220, .18); border-radius: 16px; background: rgba(239, 232, 220, .05); text-decoration: none; }
+.rv-stat__label { font-size: .74rem; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: var(--on-dark-2); }
+.rv-stat__nums { display: flex; align-items: baseline; gap: .7rem; font-weight: 900; font-variation-settings: "wdth" 125; font-size: clamp(2.4rem, 1.8rem + 2.4vw, 3.4rem); line-height: 1; letter-spacing: -.03em; }
+.rv-stat__old { color: var(--gel); }
+.rv-stat__arrow { font-size: .55em; color: var(--on-dark-2); }
+.rv-stat__new { color: var(--on-dark); }
+.rv-stat__sub { font-size: .92rem; color: var(--on-dark-2); }
 .rv-lede { max-width: 46ch; margin-top: 1.2rem; font-size: var(--step-1); line-height: 1.5; color: var(--on-dark-2); }
-.rv-compare { display: grid; gap: clamp(1rem, .6rem + 1.6vw, 2rem); margin-top: clamp(2rem, 1.4rem + 2.4vw, 3.4rem); }
-@media (min-width: 760px) { .rv-compare { grid-template-columns: 1fr 1fr; } }
+.rv-compare { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(.8rem, .5rem + 1.6vw, 2rem); margin-top: clamp(2rem, 1.4rem + 2.4vw, 3.4rem); }
 .rv-browser { margin: 0; }
 .rv-browser figcaption, .shot figcaption { display: flex; align-items: center; gap: .55rem; margin-bottom: .6rem; font-size: .84rem; color: var(--on-dark-2); }
 .rv-browser figcaption b, .shot figcaption b { padding: .2rem .6rem; border-radius: var(--radius); background: var(--on-dark); color: var(--ink); font-size: .72rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 .rv-browser--new figcaption b, .shot--new figcaption b { background: var(--hs-red); color: var(--white); }
 .rv-browser img { width: 100%; border: 1px solid rgba(239, 232, 220, .16); border-top: 18px solid #2a2622; border-radius: 10px; box-shadow: 0 24px 50px -24px rgba(0, 0, 0, .7); }
+@media (max-width: 759px) { .rv-browser img { border: 4px solid #2a2622; border-radius: 16px; } .rv-browser figcaption { flex-direction: column; align-items: flex-start; gap: .35rem; } }
 
 /* already working */
 .rv-working { padding-block: clamp(2.2rem, 1.6rem + 2.4vw, 3.4rem); background: var(--card); border-bottom: 1px solid var(--line-2); }
@@ -45,7 +52,7 @@ body { background: var(--cream) var(--grain); }
 .finding__fix b { display: inline-block; margin-right: .5rem; padding: .16rem .55rem; border-radius: var(--radius); background: var(--ink); color: var(--on-dark); font-size: .72rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; vertical-align: .12em; }
 .finding__pair { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 190px)); gap: 1rem; justify-content: start; }
 .shot { margin: 0; }
-.shot figcaption { margin: .6rem 0 0; color: var(--ink-2); font-size: .8rem; line-height: 1.3; align-items: flex-start; flex-direction: column; gap: .35rem; }
+.shot figcaption { margin: .6rem 0 0; color: var(--ink-2); font-size: .86rem; line-height: 1.3; align-items: flex-start; flex-direction: column; gap: .35rem; }
 .shot figcaption b { background: var(--ink); color: var(--on-dark); }
 .shot img { width: 100%; border: 5px solid var(--ink); border-radius: 22px; background: var(--ink); }
 .shot--wide { grid-column: span 2; }
@@ -83,6 +90,8 @@ body { background: var(--cream) var(--grain); }
 .rv-close .rv-wrap { display: grid; justify-items: center; gap: 1rem; }
 .rv-script { font-family: var(--script); font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem); line-height: 1; color: var(--vandy-gold); transform: rotate(-4deg); }
 .rv-close p:not(.rv-script) { max-width: 58ch; line-height: 1.6; color: var(--on-dark-2); }
+.rv-next { margin-top: .4rem; padding: .7rem 1.1rem; border-radius: var(--radius); background: rgba(239, 232, 220, .07); color: var(--on-dark); }
+.rv-next b { margin-right: .5rem; color: var(--vandy-gold); font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; }
 .rv-close__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin-top: .6rem; }
 .rv-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .9rem 1.4rem; border: 1px solid rgba(239, 232, 220, .45); border-radius: var(--radius); font-weight: 700; text-decoration: none; }
 .rv-btn--solid { background: var(--on-dark); color: var(--ink); border-color: var(--on-dark); }
@@ -100,15 +109,23 @@ body { background: var(--cream) var(--grain); }
   .rv-wrap { max-width: none; padding-inline: 0; }
   .rv-top { padding: 4mm 7mm 0; border-radius: 4mm 4mm 0 0; }
   .rv-hero { padding: 7mm 7mm 8mm; border-radius: 0 0 4mm 4mm; }
-  .rv-close { padding: 9mm 7mm; border-radius: 4mm; margin-top: 4mm; }
+  .rv-close { padding: 6mm 7mm; border-radius: 4mm; margin-top: 2mm; }
+  .rv-close .rv-wrap { gap: 2.5mm; }
+  .rv-close .rv-display { font-size: 22pt; }
+  .rv-script { font-size: 18pt; }
+  .rv-next { padding: 2mm 5mm; }
   .rv-foot { background: none; color: var(--ink-2); border: 0; padding: 4mm 0 0; }
   .rv-working, .rv-findings, .rv-speed, .rv-switch { background: none; border: 0; padding-block: 6mm; }
+  .rv-speed, .rv-switch { padding-block: 3mm; }
+  .speed { margin-top: 4mm; }
+  .rv-steps { margin-top: 4mm; gap: 3mm 8mm; }
   .rv-display { font-size: 30pt; }
   .rv-display--s { font-size: 17pt; }
   .rv-lede { font-size: 11pt; }
   .rv-compare { grid-template-columns: 1fr 1fr; margin-top: 6mm; }
   .rv-working ul { grid-template-columns: repeat(3, 1fr); }
-  .rv-findings h2 { break-before: page; }
+  .rv-eyebrow img { display: none; }
+  .rv-stat { margin-top: 5mm; padding: 3mm 5mm; }
   .finding { break-inside: avoid; grid-template-columns: 13mm minmax(0, 1fr) 70mm; padding-block: 6mm; }
   .finding__n { font-size: 20pt; }
   .finding__pair { grid-column: auto; grid-template-columns: repeat(2, minmax(0, 1fr)); }
